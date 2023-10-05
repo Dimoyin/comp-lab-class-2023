@@ -10,6 +10,7 @@
 # For MPI parallelizing, we recommand following command:
 # mpirun -np $NUM_CPU mpirun gmx_mpi mdrun -ntomp 1
 
+module load gromacs/openmpi/intel/2020.4
 init=step3_input
 mini_prefix=step4.0_minimization
 equi_prefix=step4.1_equilibration
