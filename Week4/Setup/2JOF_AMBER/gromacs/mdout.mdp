@@ -1,17 +1,17 @@
 ;
 ;	File 'mdout.mdp' was generated
 ;	By user: unknown (4238322)
-;	On host: cs071.hpc.nyu.edu
-;	At date: Thu Oct  5 14:58:50 2023
+;	On host: cs038.hpc.nyu.edu
+;	At date: Thu Oct 12 11:20:44 2023
 ;
 ;	Created by:
 ;	                     :-) GROMACS - gmx grompp, 2020.4 (-:
 ;	
 ;	Executable:   /share/apps/gromacs/2020.4/openmpi/intel/bin/gmx_mpi
 ;	Data prefix:  /share/apps/gromacs/2020.4/openmpi/intel
-;	Working dir:  /home/ly2571/comp-lab-class-2023/Week4/Setup/2JOF_AMBER/gromacs
+;	Working dir:  /home/ly2571/comp-lab-class-2023/Week4_2/Setup/2JOF_AMBER/gromacs
 ;	Command line:
-;	  gmx_mpi grompp -f step5_production.mdp -o step5_9.tpr -c step5_8.gro -t step5_8.cpt -p topol.top -n index.ndx
+;	  gmx_mpi grompp -f step5_production.mdp -o step5_1.tpr -c step4.1_equilibration.gro -p topol.top -n index.ndx
 
 ; VARIOUS PREPROCESSING OPTIONS
 ; Preprocessor information: use cpp syntax.

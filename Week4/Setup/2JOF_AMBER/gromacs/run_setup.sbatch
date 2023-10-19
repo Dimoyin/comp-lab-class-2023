@@ -4,6 +4,8 @@
 #SBATCH --tasks-per-node=20
 #SBATCH --mem=8GB
 #SBATCH --time=24:00:00
+#SBATCH --job-name=dimoyin_assignment
+#SBATCH --output=dimoyin_assignment.out
 
 module load gromacs/openmpi/intel/2020.4
 
@@ -39,7 +41,7 @@ mpirun gmx_mpi mdrun -v -deffnm ${equi_prefix}
 
 # Production
 cnt=1
-cntmax=10
+cntmax=11
 
 while [ ${cnt} -lt ${cntmax} ]
 do

@@ -29,8 +29,8 @@ of the License, or (at your option) any later version.
 GROMACS:      gmx mdrun, version 2020.4
 Executable:   /share/apps/gromacs/2020.4/openmpi/intel/bin/gmx_mpi
 Data prefix:  /share/apps/gromacs/2020.4/openmpi/intel
-Working dir:  /home/ly2571/comp-lab-class-2023/Week4/Setup/2JOF_AMBER/gromacs
-Process ID:   1874183
+Working dir:  /home/ly2571/comp-lab-class-2023/Week4_2/Setup/2JOF_AMBER/gromacs
+Process ID:   582962
 Command line:
   gmx_mpi mdrun -v -deffnm step4.0_minimization
 
@@ -54,7 +54,7 @@ C++ compiler flags: -xCORE-AVX512 -qopt-zmm-usage=high -mkl=sequential -wd3180 -
 
 
 Running on 1 node with total 48 cores, 48 logical cores
-Hardware detected on host cs071.hpc.nyu.edu (the node of MPI rank 0):
+Hardware detected on host cs038.hpc.nyu.edu (the node of MPI rank 0):
   CPU info:
     Vendor: Intel
     Brand:  Intel(R) Xeon(R) Platinum 8268 CPU @ 2.90GHz
@@ -134,7 +134,7 @@ Input Parameters:
    comm-mode                      = Linear
    nstcomm                        = 100
    bd-fric                        = 0
-   ld-seed                        = 2018342633
+   ld-seed                        = 11100583
    emtol                          = 1000
    emstep                         = 0.01
    niter                          = 20
@@ -382,7 +382,7 @@ Note that activating steepest-descent energy minimization via the integrator .md
 Initiating Steepest Descents
 
 Atom distribution over 12 domains: av 760 stddev 37 min 728 max 800
-Started Steepest Descents on rank 0 Thu Oct  5 14:25:55 2023
+Started Steepest Descents on rank 0 Thu Oct 12 11:19:45 2023
 
 
 Steepest Descents:
@@ -402,7 +402,7 @@ Steepest Descents:
     0.00000e+00
 
 
-DD  step 0 load imb.: force  2.1%  pme mesh/force 0.734
+DD  step 0 load imb.: force  4.9%  pme mesh/force 2.043
            Step           Time
               1        1.00000
 
@@ -2056,5 +2056,5 @@ Norm of force     =  2.9265326e+01
 
  av. #atoms communicated per step for force:  2 x 22169.6
 
-Finished mdrun on rank 0 Thu Oct  5 14:25:55 2023
+Finished mdrun on rank 0 Thu Oct 12 11:19:45 2023
 
