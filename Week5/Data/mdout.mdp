@@ -1,17 +1,17 @@
 ;
 ;	File 'mdout.mdp' was generated
-;	By user: ly2571 (4238322)
-;	On host: log-3
-;	At date: Thu Oct 12 15:00:08 2023
+;	By user: unknown (4238322)
+;	On host: gr011.hpc.nyu.edu
+;	At date: Thu Oct 26 14:57:52 2023
 ;
 ;	Created by:
 ;	                     :-) GROMACS - gmx grompp, 2018.3 (-:
 ;	
 ;	Executable:   /share/apps/gromacs/2018.3/openmpi/intel/bin/gmx_mpi
 ;	Data prefix:  /share/apps/gromacs/2018.3/openmpi/intel
-;	Working dir:  /home/ly2571/comp-lab-class-2023/Week5/Inputs
+;	Working dir:  /home/ly2571/comp-lab-class-2023/Week5/Data
 ;	Command line:
-;	  gmx_mpi grompp -f adp_T300.mdp -c adp.gro -p adp.top -o adp_md.tpr
+;	  gmx_mpi grompp -f T440/adp.mdp -c T440/adp.gro -p T440/adp.top -o T440/adp.tpr
 
 ; VARIOUS PREPROCESSING OPTIONS
 ; Preprocessor information: use cpp syntax.
@@ -163,7 +163,7 @@ print-nose-hoover-chain-variables = no
 tc_grps                  = system
 ; Time constant (ps) and reference temperature (K)
 tau_t                    = 0.1
-ref_t                    = 300.000
+ref_t                    = 440.000
 ; pressure coupling     
 Pcoupl                   = no
 pcoupltype               = Isotropic
@@ -212,7 +212,7 @@ annealing-temp           =
 
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen_vel                  = yes
-gen_temp                 = 300.000
+gen_temp                 = 440.000
 gen_seed                 = 1536
 
 ; OPTIONS FOR BONDS    
