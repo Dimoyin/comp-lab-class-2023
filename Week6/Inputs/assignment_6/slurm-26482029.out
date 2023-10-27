@@ -1,0 +1,145 @@
+                      :-) GROMACS - gmx mdrun, 2019.6 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx mdrun, version 2019.6
+Executable:   /scratch/work/courses/CHEM-GA-2671-2022fa/software/gromacs-2019.6-plumedSept2020/bin/gmx_mpi
+Data prefix:  /scratch/work/courses/CHEM-GA-2671-2022fa/software/gromacs-2019.6-plumedSept2020
+Working dir:  /scratch/work/courses/CHEM-GA-2671-2022fa/yw5806/comp-lab-class/Week6/Inputs/assignment_6
+Command line:
+  gmx_mpi mdrun -s topolA.tpr -nsteps 5000000 -plumed plumed.dat
+
+Reading file topolA.tpr, VERSION 4.6.7 (single precision)
+Note: file tpx version 83, software tpx version 116
+Overriding nsteps with value passed on the command line: 5000000 steps, 1e+04 ps
+
+Using 1 MPI process
+
+
+Non-default thread affinity set probably by the OpenMP library,
+disabling internal thread affinity
+
+NOTE: This file uses the deprecated 'group' cutoff_scheme. This will be
+removed in a future release when 'verlet' supports all interaction forms.
+
+starting mdrun 'alanine dipeptide in vacuum'
+5000000 steps,  10000.0 ps.
+
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:      140.129      140.129      100.0
+                 (ns/day)    (hour/ns)
+Performance:     6165.739        0.004
+
+GROMACS reminds you: "If Java had true garbage collection, most programs would delete themselves upon execution." (Robert Sewell)
+
+WARNING: I cannot find /scratch/work/hockygroup/software/plumed2-icc-Sept2020/lib/plumed/patches/ directory. Set PLUMED_ROOT or reinstall PLUMED
+
+PLUMED: PLUMED is starting
+PLUMED: Version: 2.7.0-dev (git: f3110b4e3) compiled on Oct 22 2020 at 15:05:46
+PLUMED: Please cite these papers when using PLUMED [1][2]
+PLUMED: For further information see the PLUMED web page at http://www.plumed.org
+PLUMED: Root: /scratch/work/hockygroup/software/plumed2-icc-Sept2020/lib/plumed
+PLUMED: For installed feature, see /scratch/work/hockygroup/software/plumed2-icc-Sept2020/lib/plumed/src/config/config.txt
+PLUMED: Molecular dynamics engine: 
+PLUMED: Precision of reals: 8
+PLUMED: Running over 1 node
+PLUMED: Number of threads: 1
+PLUMED: Cache line size: 512
+PLUMED: Number of atoms: 1
+PLUMED: File suffix: 
+PLUMED: Timestep: 0.000000
+PLUMED: KbT has not been set by the MD engine
+PLUMED: It should be set by hand where needed
+PLUMED: Relevant bibliography:
+PLUMED:   [1] The PLUMED consortium, Nat. Methods 16, 670 (2019)
+PLUMED:   [2] Tribello, Bonomi, Branduardi, Camilloni, and Bussi, Comput. Phys. Commun. 185, 604 (2014)
+PLUMED: Please read and cite where appropriate!
+PLUMED: Finished setup
+PLUMED: Action FAKE
+PLUMED:   with label phi
+PLUMED: Action FAKE
+PLUMED:   with label psi
+PLUMED: Action FUNCSUMHILLS
+PLUMED:   with label @2
+PLUMED:   with arguments phi psi
+PLUMED:   Output format is %14.9f
+PLUMED:   hillsfile  : adp_stateA_biasfactor10_pace500_height1.2_sigma0.55_2D_10ns.hills.txt
+PLUMED:    
+PLUMED:   No boundaries defined: need to do a prescreening of hills 
+PLUMED:   doing serialread 
+PLUMED:   opening file adp_stateA_biasfactor10_pace500_height1.2_sigma0.55_2D_10ns.hills.txt
+PLUMED:   closing file adp_stateA_biasfactor10_pace500_height1.2_sigma0.55_2D_10ns.hills.txt
+PLUMED:   now total 10000 kernels 
+PLUMED:   final chunk: now with 10000 kernels  
+PLUMED:   found boundaries from hillsfile: 
+PLUMED:   variable phi min: -3.14159 max: 3.14159 nbin: 33
+PLUMED:   variable psi min: -3.14159 max: 3.14159 nbin: 17
+PLUMED:   done!
+PLUMED:    
+PLUMED:   Doing only one integration: no stride 
+PLUMED:   output file for fes/bias  is :  adp_stateA_biasfactor10_pace500_height1.2_sigma0.55_1.05_2D_10ns.fes.dat
+PLUMED: 
+PLUMED:   Now calculating...
+PLUMED: 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   opening file adp_stateA_biasfactor10_pace500_height1.2_sigma0.55_2D_10ns.hills.txt
+PLUMED:   closing file adp_stateA_biasfactor10_pace500_height1.2_sigma0.55_2D_10ns.hills.txt
+PLUMED:   now total 10000 kernels 
+PLUMED:   final chunk: now with 10000 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file adp_stateA_biasfactor10_pace500_height1.2_sigma0.55_1.05_2D_10ns.fes.dat 
+PLUMED:                                               Cycles        Total      Average      Minimum      Maximum
+PLUMED: 0 Summing hills                                    1     0.733606     0.733606     0.733606     0.733606
+PLUMED:                                               Cycles        Total      Average      Minimum      Maximum
+PLUMED:                                                    1     0.000130     0.000130     0.000130     0.000130
+WARNING: I cannot find /scratch/work/hockygroup/software/plumed2-icc-Sept2020/lib/plumed/patches/ directory. Set PLUMED_ROOT or reinstall PLUMED
+
+terminate called after throwing an instance of 'PLMD::Plumed::ExceptionError'
+  what():  
++++ PLUMED error
++++ at OFile.cpp:50, function unsigned long PLMD::OFile::llwrite(const char *, unsigned long)
++++ message follows +++
+writing on uninitialized File
+[gr001:2195238] *** Process received signal ***
+[gr001:2195238] Signal: Aborted (6)
+[gr001:2195238] Signal code:  (-6)
+[gr001:2195238] [ 0] /lib64/libc.so.6(+0x37400)[0x14783e39f400]
+[gr001:2195238] [ 1] /lib64/libc.so.6(gsignal+0x10f)[0x14783e39f37f]
+[gr001:2195238] [ 2] /lib64/libc.so.6(abort+0x127)[0x14783e389db5]
+[gr001:2195238] [ 3] /lib64/libstdc++.so.6(+0x9009b)[0x14783ed5709b]
+[gr001:2195238] [ 4] /lib64/libstdc++.so.6(+0x9653c)[0x14783ed5d53c]
+[gr001:2195238] [ 5] /lib64/libstdc++.so.6(+0x96597)[0x14783ed5d597]
+[gr001:2195238] [ 6] /lib64/libstdc++.so.6(+0x967f8)[0x14783ed5d7f8]
+[gr001:2195238] [ 7] plumed[0x40de80]
+[gr001:2195238] [ 8] plumed[0x40d338]
+[gr001:2195238] [ 9] /lib64/libc.so.6(__libc_start_main+0xf3)[0x14783e38b493]
+[gr001:2195238] [10] plumed[0x40cf2e]
+[gr001:2195238] *** End of error message ***
+/opt/slurm/data/slurmd/job26482029/slurm_script: line 10: 2195238 Aborted                 (core dumped) plumed sum_hills --hills adp_stateA_biasfactor10_pace500_height1.2_sigma0.55_2D_10ns.hills.txt --stride 100 --mintozero --outfile StrideHills/adp_stateA_biasfactor10_pace500_height1.2_sigma0.55_2D_10ns.fes.dat

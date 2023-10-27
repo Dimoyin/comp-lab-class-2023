@@ -1,0 +1,2 @@
+# Attention: 
+# All the working process and files were stored under comp-lab-class/Week6/Inputs/assignment_3, if we directlly move them to this dir comp-lab-class/Week6/Inputs/assignment_4, many dir paths defined during simulation & analysis would have to change.

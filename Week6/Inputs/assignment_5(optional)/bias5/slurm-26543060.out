@@ -1,0 +1,677 @@
+                      :-) GROMACS - gmx mdrun, 2019.6 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx mdrun, version 2019.6
+Executable:   /scratch/work/courses/CHEM-GA-2671-2022fa/software/gromacs-2019.6-plumedSept2020/bin/gmx_mpi
+Data prefix:  /scratch/work/courses/CHEM-GA-2671-2022fa/software/gromacs-2019.6-plumedSept2020
+Working dir:  /scratch/work/courses/CHEM-GA-2671-2022fa/yw5806/comp-lab-class/Week6/Inputs/assignment_5(optional)/bias5
+Command line:
+  gmx_mpi mdrun -s topolA.tpr -nsteps 5000000 -plumed plumed.dat
+
+Reading file topolA.tpr, VERSION 4.6.7 (single precision)
+Note: file tpx version 83, software tpx version 116
+Overriding nsteps with value passed on the command line: 5000000 steps, 1e+04 ps
+
+Using 1 MPI process
+
+
+Non-default thread affinity set probably by the OpenMP library,
+disabling internal thread affinity
+
+NOTE: This file uses the deprecated 'group' cutoff_scheme. This will be
+removed in a future release when 'verlet' supports all interaction forms.
+
+starting mdrun 'alanine dipeptide in vacuum'
+5000000 steps,  10000.0 ps.
+
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:      150.433      150.433      100.0
+                 (ns/day)    (hour/ns)
+Performance:     5743.430        0.004
+
+GROMACS reminds you: "Try to calculate the numbers that have been" (The Smoke Fairies)
+
+WARNING: I cannot find /scratch/work/hockygroup/software/plumed2-icc-Sept2020/lib/plumed/patches/ directory. Set PLUMED_ROOT or reinstall PLUMED
+
+PLUMED: PLUMED is starting
+PLUMED: Version: 2.7.0-dev (git: f3110b4e3) compiled on Oct 22 2020 at 15:05:46
+PLUMED: Please cite these papers when using PLUMED [1][2]
+PLUMED: For further information see the PLUMED web page at http://www.plumed.org
+PLUMED: Root: /scratch/work/hockygroup/software/plumed2-icc-Sept2020/lib/plumed
+PLUMED: For installed feature, see /scratch/work/hockygroup/software/plumed2-icc-Sept2020/lib/plumed/src/config/config.txt
+PLUMED: Molecular dynamics engine: 
+PLUMED: Precision of reals: 8
+PLUMED: Running over 1 node
+PLUMED: Number of threads: 1
+PLUMED: Cache line size: 512
+PLUMED: Number of atoms: 1
+PLUMED: File suffix: 
+PLUMED: Timestep: 0.000000
+PLUMED: KbT has not been set by the MD engine
+PLUMED: It should be set by hand where needed
+PLUMED: Relevant bibliography:
+PLUMED:   [1] The PLUMED consortium, Nat. Methods 16, 670 (2019)
+PLUMED:   [2] Tribello, Bonomi, Branduardi, Camilloni, and Bussi, Comput. Phys. Commun. 185, 604 (2014)
+PLUMED: Please read and cite where appropriate!
+PLUMED: Finished setup
+PLUMED: Action FAKE
+PLUMED:   with label phi
+PLUMED: Action FUNCSUMHILLS
+PLUMED:   with label @1
+PLUMED:   with arguments phi
+PLUMED:   Output format is %14.9f
+PLUMED:   hillsfile  : adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.hills.txt
+PLUMED:    
+PLUMED:   No boundaries defined: need to do a prescreening of hills 
+PLUMED:   doing serialread 
+PLUMED:   opening file adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.hills.txt
+PLUMED:   closing file adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.hills.txt
+PLUMED:   now total 10000 kernels 
+PLUMED:   final chunk: now with 10000 kernels  
+PLUMED:   found boundaries from hillsfile: 
+PLUMED:   variable phi min: -3.14159 max: 3.14159 nbin: 33
+PLUMED:   done!
+PLUMED:    
+PLUMED:   Doing only one integration: no stride 
+PLUMED:   output file for fes/bias  is :  adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat
+PLUMED: 
+PLUMED:   Now calculating...
+PLUMED: 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   opening file adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.hills.txt
+PLUMED:   closing file adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.hills.txt
+PLUMED:   now total 10000 kernels 
+PLUMED:   final chunk: now with 10000 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat 
+PLUMED:                                               Cycles        Total      Average      Minimum      Maximum
+PLUMED: 0 Summing hills                                    1     0.169769     0.169769     0.169769     0.169769
+PLUMED:                                               Cycles        Total      Average      Minimum      Maximum
+PLUMED:                                                    1     0.000132     0.000132     0.000132     0.000132
+WARNING: I cannot find /scratch/work/hockygroup/software/plumed2-icc-Sept2020/lib/plumed/patches/ directory. Set PLUMED_ROOT or reinstall PLUMED
+
+PLUMED: PLUMED is starting
+PLUMED: Version: 2.7.0-dev (git: f3110b4e3) compiled on Oct 22 2020 at 15:05:46
+PLUMED: Please cite these papers when using PLUMED [1][2]
+PLUMED: For further information see the PLUMED web page at http://www.plumed.org
+PLUMED: Root: /scratch/work/hockygroup/software/plumed2-icc-Sept2020/lib/plumed
+PLUMED: For installed feature, see /scratch/work/hockygroup/software/plumed2-icc-Sept2020/lib/plumed/src/config/config.txt
+PLUMED: Molecular dynamics engine: 
+PLUMED: Precision of reals: 8
+PLUMED: Running over 1 node
+PLUMED: Number of threads: 1
+PLUMED: Cache line size: 512
+PLUMED: Number of atoms: 1
+PLUMED: File suffix: 
+PLUMED: Timestep: 0.000000
+PLUMED: KbT has not been set by the MD engine
+PLUMED: It should be set by hand where needed
+PLUMED: Relevant bibliography:
+PLUMED:   [1] The PLUMED consortium, Nat. Methods 16, 670 (2019)
+PLUMED:   [2] Tribello, Bonomi, Branduardi, Camilloni, and Bussi, Comput. Phys. Commun. 185, 604 (2014)
+PLUMED: Please read and cite where appropriate!
+PLUMED: Finished setup
+PLUMED: Action FAKE
+PLUMED:   with label phi
+PLUMED: Action FUNCSUMHILLS
+PLUMED:   with label @1
+PLUMED:   with arguments phi
+PLUMED:   Output format is %14.9f
+PLUMED:   hillsfile  : adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.hills.txt
+PLUMED:    
+PLUMED:   No boundaries defined: need to do a prescreening of hills 
+PLUMED:   doing serialread 
+PLUMED:   opening file adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.hills.txt
+PLUMED:   closing file adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.hills.txt
+PLUMED:   now total 10000 kernels 
+PLUMED:   final chunk: now with 10000 kernels  
+PLUMED:   found boundaries from hillsfile: 
+PLUMED:   variable phi min: -3.14159 max: 3.14159 nbin: 33
+PLUMED:   done!
+PLUMED:    
+PLUMED:   Doing integration slices every 100 kernels
+PLUMED:   mintozero: bias/histogram will be translated to have the minimum value equal to zero
+PLUMED:   output file for fes/bias  is :  StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat
+PLUMED: 
+PLUMED:   Now calculating...
+PLUMED: 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   opening file adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.hills.txt
+PLUMED:   done with this chunk: now with 100 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat0.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 200 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat1.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 300 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat2.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 400 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat3.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 500 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat4.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 600 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat5.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 700 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat6.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 800 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat7.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 900 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat8.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 1000 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat9.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 1100 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat10.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 1200 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat11.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 1300 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat12.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 1400 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat13.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 1500 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat14.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 1600 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat15.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 1700 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat16.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 1800 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat17.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 1900 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat18.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 2000 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat19.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 2100 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat20.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 2200 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat21.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 2300 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat22.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 2400 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat23.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 2500 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat24.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 2600 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat25.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 2700 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat26.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 2800 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat27.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 2900 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat28.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 3000 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat29.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 3100 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat30.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 3200 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat31.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 3300 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat32.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 3400 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat33.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 3500 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat34.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 3600 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat35.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 3700 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat36.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 3800 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat37.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 3900 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat38.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 4000 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat39.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 4100 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat40.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 4200 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat41.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 4300 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat42.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 4400 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat43.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 4500 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat44.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 4600 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat45.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 4700 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat46.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 4800 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat47.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 4900 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat48.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 5000 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat49.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 5100 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat50.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 5200 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat51.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 5300 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat52.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 5400 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat53.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 5500 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat54.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 5600 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat55.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 5700 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat56.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 5800 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat57.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 5900 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat58.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 6000 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat59.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 6100 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat60.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 6200 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat61.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 6300 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat62.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 6400 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat63.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 6500 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat64.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 6600 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat65.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 6700 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat66.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 6800 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat67.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 6900 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat68.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 7000 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat69.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 7100 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat70.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 7200 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat71.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 7300 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat72.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 7400 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat73.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 7500 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat74.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 7600 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat75.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 7700 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat76.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 7800 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat77.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 7900 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat78.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 8000 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat79.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 8100 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat80.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 8200 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat81.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 8300 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat82.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 8400 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat83.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 8500 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat84.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 8600 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat85.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 8700 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat86.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 8800 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat87.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 8900 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat88.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 9000 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat89.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 9100 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat90.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 9200 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat91.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 9300 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat92.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 9400 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat93.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 9500 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat94.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 9600 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat95.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 9700 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat96.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 9800 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat97.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 9900 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat98.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   done with this chunk: now with 10000 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat99.dat 
+PLUMED:   reading hills: 
+PLUMED:   doing serialread 
+PLUMED:   closing file adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.hills.txt
+PLUMED:   now total 10000 kernels 
+PLUMED:   final chunk: now with 32766 kernels  
+PLUMED: 
+PLUMED:   Writing full grid on file StrideHills/adp_stateA_biasfactor5_pace500_height1.2_sigma0.55_10ns.fes.dat100.dat 
+PLUMED:                                               Cycles        Total      Average      Minimum      Maximum
+PLUMED: 0 Summing hills                                    1     0.221199     0.221199     0.221199     0.221199
+PLUMED:                                               Cycles        Total      Average      Minimum      Maximum
+PLUMED:                                                    1     0.000143     0.000143     0.000143     0.000143
