@@ -1,0 +1,1657 @@
+Query         3RY2_1|Chains A, B|Streptavidin|Streptomyces avidinii (1895)
+Match_columns 127
+No_of_seqs    101 out of 427
+Neff          5.86476
+Searched_HMMs 80799
+Date          Sat Nov  5 14:51:50 2022
+Command       /usr/bin/hhsearch -i /state/partition1/job-26707455/tmpvtxpupya/query.a3m -o /state/partition1/job-26707455/tmpvtxpupya/output.hhr -maxseq 1000000 -d /alphafold-data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2F01_B Streptavidin; protein/l 100.0 9.5E-40 1.2E-44  237.7   0.0  127    1-127     1-127 (127)
+  2 3RY2_A Streptavidin; biotin-bi 100.0 9.5E-40 1.2E-44  237.7   0.0  127    1-127     1-127 (127)
+  3 4Y59_A STREPTAVIDIN; BIOTIN-BI 100.0 2.5E-38 3.1E-43  228.3   0.0  121    3-123     1-121 (121)
+  4 1I9H_B STREPTAVIDIN complex wi 100.0 4.1E-38 5.1E-43  232.7   0.0  126    2-127    14-139 (139)
+  5 3RDO_A Streptavidin; Streptavi 100.0   4E-37 4.9E-42  231.0   0.0  127    1-127    26-152 (153)
+  6 3X00_C Streptavidin; beta-barr 100.0 4.4E-37 5.4E-42  229.5   0.0  126    2-127    16-141 (147)
+  7 2BC3_A Streptavidin; streptavi 100.0 1.2E-36 1.5E-41  229.8   0.0  126    2-127    14-139 (159)
+  8 5WBA_A Streptavidin; streptavi 100.0 1.2E-36 1.5E-41  229.8   0.0  126    2-127    14-139 (159)
+  9 2ZSC_B Tamavidin2; Biotin Bind 100.0 2.2E-36 2.8E-41  224.2   0.0  123    2-127     5-127 (141)
+ 10 5N8B_B Streptavidin, GLU-TRP-V 100.0 2.7E-36 3.3E-41  232.5   0.0  126    2-127    38-163 (183)
+ 11 5N8W_A Streptavidin, GLY-DTY-G 100.0 2.7E-36 3.3E-41  232.5   0.0  126    2-127    38-163 (183)
+ 12 5N8B_D Streptavidin, GLU-TRP-V 100.0   4E-36   5E-41  231.6   0.0  126    2-127    38-163 (183)
+ 13 6AUL_A Streptavidin; streptavi 100.0 4.2E-36 5.2E-41  227.0   0.0  126    2-127    14-139 (159)
+ 14 6GMI_A Streptavidin; Biotin-Bi 100.0 1.5E-35 1.9E-40  228.1   0.0  126    2-127    13-161 (181)
+ 15 4I60_A Avidin; Beta barrel, Bi 100.0 3.2E-35   4E-40  214.1   0.0  117    2-124     3-126 (128)
+ 16 1VYO_A AVIDIN; GLYCOPROTEIN, B 100.0   6E-35 7.4E-40  212.6   0.0  117    2-124     3-126 (128)
+ 17 2C1S_B BIOTIN BINDING PROTEIN  100.0 6.7E-35 8.3E-40  211.8   0.0  117    1-122     3-126 (126)
+ 18 6S4Q_A Streptavidin; Biotin-Bi 100.0 1.2E-34 1.5E-39  241.2   0.0  125    2-126    14-138 (343)
+ 19 2C1Q_A BIOTIN BINDING PROTEIN  100.0 1.5E-34 1.8E-39  210.0   0.0  117    1-122     3-126 (126)
+ 20 2FHN_Y Avidin-related protein  100.0 1.5E-34 1.9E-39  210.0   0.0  116    2-125     3-125 (126)
+ 21 2MF6_C Avidin, Avidin-related  100.0 2.6E-34 3.3E-39  209.6   0.0  115    2-124     6-127 (129)
+ 22 1Y55_Y Avidin-related protein  100.0 3.8E-34 4.7E-39  207.9   0.0  116    2-125     3-125 (126)
+ 23 4BJ8_D ZEBAVIDIN; BIOTIN-BINDI 100.0   4E-34   5E-39  207.9   0.0  113    1-124     4-125 (126)
+ 24 4BJ8_O ZEBAVIDIN; BIOTIN-BINDI 100.0   4E-34   5E-39  207.9   0.0  113    1-124     4-125 (126)
+ 25 4JNJ_A Streptavidin/Rhizavidin 100.0 5.2E-34 6.4E-39  204.8   0.0  111    1-122     2-115 (115)
+ 26 4JNJ_D Streptavidin/Rhizavidin 100.0 5.2E-34 6.4E-39  204.8   0.0  111    1-122     2-115 (115)
+ 27 2UYW_D XENAVIDIN; AVIDIN, BETA 100.0   6E-34 7.4E-39  208.3   0.0  115    2-125     5-126 (130)
+ 28 2UZ2_A XENAVIDIN; BETA-BARREL, 100.0   6E-34 7.4E-39  208.3   0.0  115    2-125     5-126 (130)
+ 29 6S50_B Streptavidin; Biotin-Bi 100.0 1.4E-33 1.7E-38  234.8   0.0  125    2-126    14-138 (343)
+ 30 6S50_A Streptavidin; Biotin-Bi 100.0 1.8E-33 2.2E-38  234.2   0.0  125    2-126    14-138 (343)
+ 31 4Z28_A short-hoefavidin; high   99.9 6.8E-33 8.4E-38  204.5   0.0  112    2-122    13-134 (134)
+ 32 4Z2O_A short-hoefavidin, Hoef-  99.9 6.8E-33 8.4E-38  204.5   0.0  112    2-122    13-134 (134)
+ 33 3T2X_B Avidin/streptavidin; av  99.9 7.9E-33 9.8E-38  200.7   0.0  112    1-122     5-121 (122)
+ 34 2Y32_C BLR5658 PROTEIN; BIOTIN  99.9 1.4E-32 1.8E-37  203.5   0.0  112    3-126     1-117 (138)
+ 35 3EW1_D rhizavidin; high affini  99.9 1.4E-32 1.8E-37  202.6   0.0  113    2-125    12-128 (135)
+ 36 3EW1_F rhizavidin; high affini  99.9 1.4E-32 1.8E-37  202.6   0.0  113    2-125    12-128 (135)
+ 37 3SZH_C Avidin/streptavidin; hi  99.9 1.6E-32 1.9E-37  198.9   0.0  112    1-122     5-121 (122)
+ 38 3SZI_L Avidin/streptavidin; Hi  99.9 1.6E-32 1.9E-37  198.9   0.0  112    1-122     5-121 (122)
+ 39 4GGR_A Bradavidin 2; bradavidi  99.9 1.6E-32   2E-37  197.8   0.0  103    2-121     9-114 (115)
+ 40 4GGT_A Bradavidin 2; bradavidi  99.9 1.6E-32   2E-37  197.8   0.0  103    2-121     9-114 (115)
+ 41 4GGZ_A Bradavidin 2; bradavidi  99.9 1.6E-32   2E-37  197.8   0.0  103    2-121     9-114 (115)
+ 42 4BBO_B BLR5658 PROTEIN; BIOTIN  99.9 1.8E-32 2.3E-37  197.6   0.0  112    3-126     1-117 (118)
+ 43 4BBO_C BLR5658 PROTEIN; BIOTIN  99.9 1.8E-32 2.3E-37  197.6   0.0  112    3-126     1-117 (118)
+ 44 6HDT_B Short afifavidin; avidi  99.9 2.6E-32 3.3E-37  200.8   0.0  112    3-125    17-132 (133)
+ 45 6HDV_C Afifavidin; avidin-biot  99.9 6.6E-32 8.2E-37  199.7   0.0  113    3-126    17-133 (138)
+ 46 6S4Q_A Streptavidin; Biotin-Bi  99.9 1.2E-31 1.5E-36  223.4   0.0  125    2-126   198-322 (343)
+ 47 6S50_B Streptavidin; Biotin-Bi  99.9 1.2E-31 1.5E-36  223.3   0.0  125    2-126   198-322 (343)
+ 48 6S50_A Streptavidin; Biotin-Bi  99.9 1.3E-31 1.6E-36  223.1   0.0  125    2-126   198-322 (343)
+ 49 2C4I_A AVIDIN; BIOTIN, GLYCOPR  99.9 1.2E-26 1.4E-31  188.3   0.0  105    2-125    79-190 (271)
+ 50 4GD9_B Streptavidin; biotin-bi  99.8 7.7E-25 9.6E-30  161.7   0.0   86   24-126     6-91  (132)
+ 51 4GDA_B Streptavidin; biotin-bi  99.8 8.6E-25 1.1E-29  161.2   0.0   84   26-126     6-89  (131)
+ 52 2JGS_B CIRCULAR PERMUTANT OF A  99.7   3E-20 3.7E-25  137.1   0.0   67   55-125    16-85  (130)
+ 53 2JGS_D CIRCULAR PERMUTANT OF A  99.7   3E-20 3.7E-25  137.1   0.0   67   55-125    16-85  (130)
+ 54 2C4I_A AVIDIN; BIOTIN, GLYCOPR  99.5 3.6E-18 4.5E-23  139.1   0.0   65   57-125     2-69  (271)
+ 55 2C4I_A AVIDIN; BIOTIN, GLYCOPR  99.3 1.2E-15 1.5E-20  124.5   0.0   66    2-69    200-269 (271)
+ 56 4GDA_B Streptavidin; biotin-bi  98.8   6E-12 7.4E-17   93.5   0.0   35    2-36     96-130 (131)
+ 57 4GD9_B Streptavidin; biotin-bi  98.8 7.2E-12 8.9E-17   93.2   0.0   35    2-36     98-132 (132)
+ 58 2JGS_B CIRCULAR PERMUTANT OF A  98.5 1.4E-10 1.7E-15   86.2   0.0   36    1-36     94-130 (130)
+ 59 2JGS_D CIRCULAR PERMUTANT OF A  98.5 1.4E-10 1.7E-15   86.2   0.0   36    1-36     94-130 (130)
+ 60 4BGL_D SUPEROXIDE REDUCTASE; O  27.4      53 0.00066   24.9   0.0   13    1-13    108-120 (125)
+ 61 4C4B_B SUPEROXIDE REDUCTASE; O  27.3      53 0.00066   24.8   0.0   13    1-13    108-120 (125)
+ 62 5L8R_E Lhca1, Type II chloroph  27.3      53 0.00066   22.6   0.0   17    6-22     17-33  (66)
+ 63 6TCL_E Photosystem I P700 chlo  26.9      55 0.00068   22.3   0.0   16    6-21     13-28  (63)
+ 64 6TCL_E1 Photosystem I P700 chl  26.2      58 0.00071   22.0   0.0   16    6-21     13-28  (60)
+ 65 1DO6_B SUPEROXIDE REDUCTASE; N  25.7      59 0.00074   24.5   0.0   13    1-13    109-121 (124)
+ 66 1DQI_D CRYSTAL STRUCTURE OF SU  25.7      59 0.00074   24.5   0.0   13    1-13    109-121 (124)
+ 67 1DQK_A CRYSTAL STRUCTURE OF SU  25.7      59 0.00074   24.5   0.0   13    1-13    109-121 (124)
+ 68 2WSE_E AT3G54890, TYPE II CHLO  25.0      63 0.00078   25.4   0.0   17    6-22     93-109 (143)
+ 69 2WSC_E AT3G54890, TYPE II CHLO  24.9      63 0.00078   25.4   0.0   17    6-22     93-109 (143)
+ 70 1JB0_E PHOTOSYSTEM I SUBUNIT P  24.6      64  0.0008   22.7   0.0   17    6-22     13-29  (75)
+ 71 4BFK_A SUPEROXIDE REDUCTASE (E  24.4      65 0.00081   24.3   0.0   13    1-13    108-120 (125)
+ 72 6QPH_E Chlorophyll a-b binding  24.4      65 0.00081   22.0   0.0   16    6-21     16-31  (64)
+ 73 6RHZ_E Chlorophyll a-b binding  24.4      65 0.00081   22.0   0.0   16    6-21     16-31  (64)
+ 74 5OY0_E Photosystem I P700 chlo  22.4      76 0.00094   22.1   0.0   16    6-21     14-29  (69)
+ 75 6IGZ_E PsaA, PsaB, PsaC, PsaD,  21.9      79 0.00097   23.0   0.0   16    6-21     44-59  (91)
+ 76 6FOS_E Similar to chlorophyll   21.9      79 0.00098   22.0   0.0   16    6-21     14-29  (69)
+ 77 5ZJI_E Chlorophyll a-b binding  21.8      79 0.00098   24.7   0.0   17    6-22     87-103 (136)
+
+No 1
+>2F01_B Streptavidin; protein/ligand interactions, streptavidin, biotin, BIOTIN; HET: GOL, BTQ, BTN; 0.85A {Streptomyces avidinii} SCOP: b.61.1.1
+Probab=100.00  E-value=9.5e-40  Score=237.75  Aligned_cols=127  Identities=100%  Similarity=1.475  Sum_probs=111.2  Template_Neff=6.900
+
+Q 3RY2_1|Chains     1 AEAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTW   80 (127)
+Q Consensus         1 ~~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~TsW   80 (127)
+                      |||++.|.|+|||||+|.|..+++|.|+|+|+|+|++++.+++++|+++..++.+..+++|+|+|.|++.+.+++|+|+|
+T Consensus         1 ~~~~l~G~W~Ne~GS~m~i~~~~~g~i~G~Y~tav~~~~~~~~~~G~~~~~~~~~~~g~~~~FtV~w~n~~~~~~S~tsw   80 (127)
+T 2F01_B            1 AEAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTW   80 (127)
+T ss_dssp             ---CCCEEEEETTCCEEEEEECTTSEEEEEEECSSSSCCSCEEEEEEECSSCCSSSCCEEEEEEEEEECSSCEEEEEEEE
+T ss_pred             CCcccceEEEcCCCCEEEEEeCCCCcEEEEEECCCCCCCCeEEecccccCCCCcCCCCCeEEEEEEeeCCCCCCCcceeE
+Confidence            69999999999999999999998999999999999998888999999987655556799999999999866678999999
+
+
+Q 3RY2_1|Chains    81 SGQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAAS  127 (127)
+Q Consensus        81 sGQ~~~~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~p~~~~  127 (127)
+                      +|||+.+++++|+|+|||++...+++.|+++++|+|+|+|++|++||
+T Consensus        81 ~Gqc~~~~~e~l~T~Wll~~~~~~~~~W~at~~G~D~Ftr~~~~~~~  127 (127)
+T 2F01_B           81 SGQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAAS  127 (127)
+T ss_dssp             EEEEECSTTCEEEEEEEEEECCCGGGGGGCEEEEEEEEESCCC----
+T ss_pred             EEEEEcCCccEEEEEEEEeccCCcccccceEEEcccceEecCCCCCC
+Confidence            99999878899999999999887789999999999999999999986
+
+
+No 2
+>3RY2_A Streptavidin; biotin-binding protein, biotin; HET: GOL, BTN; 0.95A {Streptomyces avidinii}
+Probab=100.00  E-value=9.5e-40  Score=237.75  Aligned_cols=127  Identities=100%  Similarity=1.475  Sum_probs=112.1  Template_Neff=6.900
+
+Q 3RY2_1|Chains     1 AEAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTW   80 (127)
+Q Consensus         1 ~~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~TsW   80 (127)
+                      |||++.|.|+|||||+|.|..+++|.|+|+|+|+|++++.+++++|+++..++.+..+++|+|+|.|++.+.+++|+|+|
+T Consensus         1 ~~~~l~G~W~Ne~GS~m~i~~~~~g~i~G~Y~tav~~~~~~~~~~G~~~~~~~~~~~g~~~~FtV~w~n~~~~~~S~tsw   80 (127)
+T 3RY2_A            1 AEAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTW   80 (127)
+T ss_dssp             -CTTTCEEEEETTSCEEEEEECTTSEEEEEEECSSSSCCSCEEEEEEECSSCCSSSCCEEEEEEEEEECSSCEEEEEEEE
+T ss_pred             CCcccceEEEcCCCCEEEEEeCCCCcEEEEEECCCCCCCCeEEecccccCCCCcCCCCCeEEEEEEeeCCCCCCCcceeE
+Confidence            69999999999999999999998999999999999998888999999987655556799999999999866678999999
+
+
+Q 3RY2_1|Chains    81 SGQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAAS  127 (127)
+Q Consensus        81 sGQ~~~~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~p~~~~  127 (127)
+                      +|||+.+++++|+|+|||++...+++.|+++++|+|+|+|++|++||
+T Consensus        81 ~Gqc~~~~~e~l~T~Wll~~~~~~~~~W~at~~G~D~Ftr~~~~~~~  127 (127)
+T 3RY2_A           81 SGQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAAS  127 (127)
+T ss_dssp             EEEEECSTTCEEEEEEEEEECCCGGGGGGCEEEEEEEEEECC-----
+T ss_pred             EEEEEcCCccEEEEEEEEeccCCcccccceEEEcccceEecCCCCCC
+Confidence            99999878899999999999887789999999999999999999986
+
+
+No 3
+>4Y59_A STREPTAVIDIN; BIOTIN-BINDING PROTEIN, Inhibitor; HET: T21; 1.22A {Streptomyces avidinii}
+Probab=100.00  E-value=2.5e-38  Score=228.33  Aligned_cols=121  Identities=100%  Similarity=1.507  Sum_probs=111.2  Template_Neff=7.100
+
+Q 3RY2_1|Chains     3 AGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWSG   82 (127)
+Q Consensus         3 c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~TsWsG   82 (127)
+                      |++.|+|+|||||+|.|..+++|.|+|+|+|+|++++.+++++|+++..++.+..+++|+|+|.|++.+.+++|+|+|+|
+T Consensus         1 ~~l~G~W~Ne~GS~m~i~~~~~G~i~G~Y~tav~~~~~~~~~~G~~~~~~~~~~~g~~~~FtV~w~~~~~~~~S~tsw~G   80 (121)
+T 4Y59_A            1 AGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWSG   80 (121)
+T ss_dssp             CCSCEEEECTTCCEEEEEECTTSEEEEEEECSSSSCCSEEEEEEEECSSCCSSSCCEEEEEEEEEECSSCEEEEEEEEEE
+T ss_pred             CCcceEEEcCCCCEEEEEeCCCCcEEEEEECCCCCCCceEEeccccccCCCcCCCCCeEEEEEEeeCCCCCCCcceeEEE
+Confidence            78999999999999999998899999999999999888899999988765545679999999999986666899999999
+
+
+Q 3RY2_1|Chains    83 QYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKP  123 (127)
+Q Consensus        83 Q~~~~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~p  123 (127)
+                      ||+.+++|+|+|+|||++...+++.|+++++|+|+|+|++|
+T Consensus        81 qc~~~g~e~l~T~Wll~~~~~~~~~W~at~~g~D~F~r~~~  121 (121)
+T 4Y59_A           81 QYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKP  121 (121)
+T ss_dssp             EEECSTTCEEEEEEEEEECCCGGGGGGCEEEEEEEEESSCC
+T ss_pred             EEEcCCcCeEEEEEEEEecCCcchhcceEEEcCcccEecCC
+Confidence            99987889999999999988778999999999999999987
+
+
+No 4
+>1I9H_B STREPTAVIDIN complex with 5-(2-OXO-HEXAHYDRO-THIENO[3,4-D]IMIDAZOL-6-YL)-PENTANOIC ACID; classical beta barrel, protein-ligand complex; HET: BNI; 2.4A {Streptomyces avidinii} SCOP: b.61.1.1
+Probab=100.00  E-value=4.1e-38  Score=232.68  Aligned_cols=126  Identities=100%  Similarity=1.481  Sum_probs=115.8  Template_Neff=6.600
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS   81 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~TsWs   81 (127)
+                      .|++.|.|+|||||+|.|.++++|.|+|+|+|+|++++.+++++|+++..++.+..+++|+|+|.|++.+.+++|+|+|+
+T Consensus        14 ~~~l~G~W~NelGS~m~I~~~~~G~i~G~Y~Tav~~~~~~~~~~G~~g~~~~~~~~g~~~gFtV~w~n~~~~~~S~tsw~   93 (139)
+T 1I9H_B           14 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS   93 (139)
+T ss_pred             CCCCceEEEcCCCCEEEEEeCCCCcEEEEEECCCCCCCCceecccccccCCCCCCCCCeEEEEEEccCcccCCCCceeEE
+Confidence            68999999999999999999889999999999999988889999998876555567999999999998666789999999
+
+
+Q 3RY2_1|Chains    82 GQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAAS  127 (127)
+Q Consensus        82 GQ~~~~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~p~~~~  127 (127)
+                      |||+.+++++|+|+|||++...+++.|+++++|+|+|+|++|++||
+T Consensus        94 GQc~~~g~e~L~T~WlL~~~~~~~~~W~at~~G~D~Ftr~~~~~~~  139 (139)
+T 1I9H_B           94 GQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAAS  139 (139)
+T ss_pred             EEEEeCCCeEEEEEEEEeeeCCcccccccEEEcccceEecCCCCCC
+Confidence            9999878899999999999987789999999999999999999986
+
+
+No 5
+>3RDO_A Streptavidin; Streptavidin variants, improved desthiobiotin binding; HET: GOL, BTN; 1.404A {Streptomyces avidinii}
+Probab=100.00  E-value=4e-37  Score=230.96  Aligned_cols=127  Identities=95%  Similarity=1.384  Sum_probs=111.2  Template_Neff=6.300
+
+Q 3RY2_1|Chains     1 AEAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTW   80 (127)
+Q Consensus         1 ~~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~TsW   80 (127)
+                      ..|+++|.|+|||||+|.|..+++|.|+|+|+|+|+...+++++.|++...++.+..+++|+|+|.|++..++++|+|+|
+T Consensus        26 ~~c~lsG~W~NelGS~M~I~~~~~G~i~G~Y~Tav~~~~~~~~l~G~~~~~~~~~~~g~~~gFsV~W~n~~~~~~S~TsW  105 (153)
+T 3RDO_A           26 AEAGITGTWYNQLGSTLIVTAGADGALTGTYESAVGNAEGSYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSASTW  105 (153)
+T ss_dssp             HHHHHSEEEEETTSCEEEEEECTTSEEEEEEECSSSSCCSCEEEEEEECSSCCSSSCCEEEEEEEEEECSSCEEEEEEEE
+T ss_pred             CccccceEEEcCCCCEEEEEeCCCCcEEEEEEcCCCCCCCeeeeEEEecCCCCCCCCCCeEEEEEEeeCCcCcCccceEE
+Confidence            36999999999999999999998999999999999988878999999876555456799999999999754458899999
+
+
+Q 3RY2_1|Chains    81 SGQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAAS  127 (127)
+Q Consensus        81 sGQ~~~~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~p~~~~  127 (127)
+                      +|||+.++++.|.|+|||+....+++.|+++++|+|+|+|++|++|+
+T Consensus       106 sGQc~~~~~e~i~T~Wll~~~~~~~d~W~st~vG~D~FtR~~~~~~~  152 (153)
+T 3RDO_A          106 SGQYVGGAEARINTQVLTTSGTTEANAWKSTLVGHDTFTKVKPSAAS  152 (153)
+T ss_dssp             EEEEECSTTCEEEEEEEEEECCCSTTGGGSEEEEEEEEESSCC----
+T ss_pred             EEEEEcCCCcEEEEEEEEEeCCCcccccceEEECCcceEecCCCccc
+Confidence            99999777789999999999977789999999999999999999874
+
+
+No 6
+>3X00_C Streptavidin; beta-barrel, BIOTIN BINDING PROTEIN; HET: ZOF; 1.3A {Streptomyces avidinii}
+Probab=100.00  E-value=4.4e-37  Score=229.49  Aligned_cols=126  Identities=93%  Similarity=1.397  Sum_probs=109.3  Template_Neff=6.200
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS   81 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~TsWs   81 (127)
+                      .|++.|+|+|||||+|+|..+++|.|+|+|+|+|+.++.++++.|++...++.+..+++|+|+|.|++..++++|+|+|+
+T Consensus        16 ~~~l~G~W~NelGS~m~I~~~~~G~i~G~Y~Tav~~~~~~~~l~G~~~~~~~~~~~g~~~gFtV~W~n~~~~~~S~Tsws   95 (147)
+T 3X00_C           16 EAGITGTWSDQLGDTFIVTAGADGALTGTYENAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNSKNAHSATTWS   95 (147)
+T ss_dssp             HHHHSEEEECTTCCEEEEEECTTSEEEEEEECTTCCGGGCEEEEEEECSSCCSSSCCEEEEEEEEEECSSCEEEEEEEEE
+T ss_pred             ccccceEEEcCCCCEEEEEeCCCCcEEEEEEcCCCCCCceEecEEEecCCCCcCCCCCeEEEEEEeeCCCCcCceeeEEE
+Confidence            58999999999999999999999999999999999888799999998765544467999999999997444568999999
+
+
+Q 3RY2_1|Chains    82 GQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAAS  127 (127)
+Q Consensus        82 GQ~~~~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~p~~~~  127 (127)
+                      |||+.+++++|+|+|||++...+++.|+++++|+|+|+|++++++|
+T Consensus        96 GQc~~~g~e~i~T~WlL~~~~~~~~~W~at~~G~D~Ftr~~~~~~~  141 (147)
+T 3X00_C           96 GQYVGGADAKINTQWLLTSGTTNANAWKSTLVGHDTFTKVKPSAAS  141 (147)
+T ss_dssp             EEEECSTTCEEEEEEEEEECCCGGGGGGSEEEEEEEEEECC-----
+T ss_pred             EEEEcCCCCEEEEEEEEEecCCCccccceEEEcCceeEecCCCccc
+Confidence            9999777899999999999987789999999999999999999875
+
+
+No 7
+>2BC3_A Streptavidin; streptavidin, T7 tag, BIOTIN BINDING; HET: GOL; 1.54A {Streptomyces avidinii} SCOP: b.61.1.1
+Probab=100.00  E-value=1.2e-36  Score=229.82  Aligned_cols=126  Identities=100%  Similarity=1.481  Sum_probs=112.9  Template_Neff=6.100
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS   81 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~TsWs   81 (127)
+                      +|++.|+|+|||||+|+|..+++|.|+|+|+|+|++++.+|+++|+++..+..+..+++|+|+|.|++.+.+++|+|+|+
+T Consensus        14 ~~~l~GtW~NelGS~m~I~~~~~G~isG~Y~Tav~~~g~~~~~~G~~g~~~~~~~~g~~~gFtV~W~n~~~~~~S~Tswt   93 (159)
+T 2BC3_A           14 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS   93 (159)
+T ss_dssp             HHHHSEEEECTTCCEEEEEECTTSEEEEEEEC--CCGGGEEEEEEEECSSCCSSSCCEEEEEEEEEECSSCEEEEEEEEE
+T ss_pred             ccccceEEEcCCCCEEEEEeCCCCcEEEEEECCCCCCCCeeEecccccCCCCcCCCCCeEEEEEEeeCCCCCCCcceeEE
+Confidence            58999999999999999999989999999999999988889999998776554567999999999998666789999999
+
+
+Q 3RY2_1|Chains    82 GQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAAS  127 (127)
+Q Consensus        82 GQ~~~~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~p~~~~  127 (127)
+                      |||+.+++++|+|+|||++...+.+.|+++++|+|+|+|++|.+++
+T Consensus        94 GQc~~dg~e~L~T~WlL~~~~~~~~~W~at~~G~D~FtR~~~~~~~  139 (159)
+T 2BC3_A           94 GQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAAS  139 (159)
+T ss_dssp             EEEECSTTCEEEEEEEEEECCCSTTGGGCEEEEEEEEESSCCCHHH
+T ss_pred             EEEEcCCcCeEEEEEEEeccCCcchhcceEEEcCcceEecCCChHH
+Confidence            9999878899999999999886789999999999999999988764
+
+
+No 8
+>5WBA_A Streptavidin; streptavidin, biotin, copper, hydroperoxo, secondary; HET: SI8; 1.5A {Streptomyces avidinii}
+Probab=100.00  E-value=1.2e-36  Score=229.82  Aligned_cols=126  Identities=100%  Similarity=1.481  Sum_probs=111.3  Template_Neff=6.100
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS   81 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~TsWs   81 (127)
+                      +|++.|+|+|||||+|+|..+++|.|+|+|+|+|++++.+|+++|+++..+..+..+++|+|+|.|++.+.+++|+|+|+
+T Consensus        14 ~~~l~GtW~NelGS~m~I~~~~~G~isG~Y~Tav~~~g~~~~~~G~~g~~~~~~~~g~~~gFtV~W~n~~~~~~S~Tswt   93 (159)
+T 5WBA_A           14 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS   93 (159)
+T ss_dssp             HHHHSEEEEETTSCEEEEEECTTSEEEEEEECSSSSCCSCEEEEEEECSSCCSSSCCEEEEEEEEEECSSCEEEEEEEEE
+T ss_pred             ccccceEEEcCCCCEEEEEeCCCCcEEEEEECCCCCCCCeeEecccccCCCCcCCCCCeEEEEEEeeCCCCCCCcceeEE
+Confidence            58999999999999999999989999999999999988889999998776554567999999999998666789999999
+
+
+Q 3RY2_1|Chains    82 GQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAAS  127 (127)
+Q Consensus        82 GQ~~~~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~p~~~~  127 (127)
+                      |||+.+++++|+|+|||++...+.+.|+++++|+|+|+|++|.+++
+T Consensus        94 GQc~~dg~e~L~T~WlL~~~~~~~~~W~at~~G~D~FtR~~~~~~~  139 (159)
+T 5WBA_A           94 GQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAAS  139 (159)
+T ss_dssp             EEEECSTTCEEEEEEEEEECCCSTTGGGCEEEEEEEEESCC-----
+T ss_pred             EEEEcCCcCeEEEEEEEeccCCcchhcceEEEcCcceEecCCChHH
+Confidence            9999878899999999999886789999999999999999988764
+
+
+No 9
+>2ZSC_B Tamavidin2; Biotin Binding Protein, Avidin-like structure; HET: GOL, BTN; 1.3A {Pleurotus cornucopiae}
+Probab=100.00  E-value=2.2e-36  Score=224.17  Aligned_cols=123  Identities=50%  Similarity=0.935  Sum_probs=108.1  Template_Neff=6.400
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS   81 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~TsWs   81 (127)
+                      .|++.|+|+|||||+|+|..+++|.|+|+|+|+|+.++.++++.|+++..+. ...+++|+|+|.|++..  ++|+|+|+
+T Consensus         5 ~c~l~G~W~NelGS~m~I~~~~~G~i~G~Y~Tav~~~~~~~pl~G~~~~~~~-~~~g~~~gFtV~w~~~~--~~S~Tsw~   81 (141)
+T 2ZSC_B            5 QSSLTGTWYNELNSKMELTANKDGTLTGKYLSKVGDVYVPYPLSGRYNLQPP-AGQGVALGWAVSWENSK--IHSATTWS   81 (141)
+T ss_dssp             HHHHSEEEEETTCCEEEEEECTTSEEEEEEECSSSSCCSCEEEEEEECSSCC-TTSCEEEEEEEEEESSS--CEEEEEEE
+T ss_pred             ccccceEEEcCCCCEEEEEeCCCCcEEEEEEcCCCCCCceeeeeeEecCCCC-CCCCceEEEEEEccCCC--CcceeeEE
+Confidence            6999999999999999999999999999999999988778999999865432 34688999999999742  78999999
+
+
+Q 3RY2_1|Chains    82 GQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAAS  127 (127)
+Q Consensus        82 GQ~~~~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~p~~~~  127 (127)
+                      |||+.+++|+|+|+|||+....+.+.|+++++|+|+|+|++|++++
+T Consensus        82 Gqc~~~~~e~l~T~WlL~~~~~~~~~W~st~~G~D~Ftr~~~~~~~  127 (141)
+T 2ZSC_B           82 GQFFSESSPVILTQWLLSSSTARGDVWESTLVGNDSFTKTAPTEQQ  127 (141)
+T ss_dssp             EEEECSSSCEEEEEEEEEECCCGGGGGGCEEEEEEEEESSCCC---
+T ss_pred             EEEecCCCCeEEEEEEEEecCCcccccceEEEccceeEEcCCCHHH
+Confidence            9999777889999999999987789999999999999999988653
+
+
+No 10
+>5N8B_B Streptavidin, GLU-TRP-VAL-HIS-PRO-GLN-PHE-GLU-GLN-LYS-ALA-LYS Peptide; STREPTAVIDIN, HPQ MOTIF, STREPTAVIDIN PEPTIDE; 1.03A {Streptomyces avidinii}
+Probab=100.00  E-value=2.7e-36  Score=232.54  Aligned_cols=126  Identities=100%  Similarity=1.481  Sum_probs=114.9  Template_Neff=5.600
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS   81 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~TsWs   81 (127)
+                      .|+++|+|+|||||+|.|..+++|.|+|+|+|+|++++.+|+++|+++..++.+..+++|+|+|.|++.+.+++|+|+|+
+T Consensus        38 ~~~l~GtW~NelGS~M~I~~~~~G~isG~Y~TaVg~~g~~~~lsG~~g~~~~~~~~g~t~gFtV~W~n~~~~~~S~TsWt  117 (183)
+T 5N8B_B           38 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS  117 (183)
+T ss_dssp             TCCSCEEEECTTCCEEEEEECTTSEEEEEEECSSCCGGGCEEEEEEECSSCCSSSCCEEEEEEEEEECSSCEEEEEEEEE
+T ss_pred             ccCceeEEEcCCCCEEEEEeCCCCcEEEEEECCCCCCCCeEEecccccCCCCcCCCCCeEEEEEEeeCCCCCCCcceeEE
+Confidence            58999999999999999999889999999999999988889999998876555567999999999998666789999999
+
+
+Q 3RY2_1|Chains    82 GQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAAS  127 (127)
+Q Consensus        82 GQ~~~~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~p~~~~  127 (127)
+                      |||+.+++|+|+|+|+|++...+++.|+++++|+|+|+|++|.+++
+T Consensus       118 GQc~~dg~e~L~T~WlL~~~~s~~d~W~st~iG~D~FtR~~~~~~~  163 (183)
+T 5N8B_B          118 GQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAAS  163 (183)
+T ss_dssp             EEEECSSSCEEEEEEEEEECCCGGGGGGCEEEEEEEEESSCGGGCC
+T ss_pred             EEEEcCCcceEEEEEEEeccCCcchhcceEEECCcceEecCCChHH
+Confidence            9999878899999999999887789999999999999999988763
+
+
+No 11
+>5N8W_A Streptavidin, GLY-DTY-GLY-DLE-DAL-DSG-DVA-DAS-DGL-DSN-DSN-GLY; STREPTAVIDIN, BIOTIN BINDING, D-AMINO ACIDS; HET: DAL, DAS, DTR, DGL, DLY, DTH, DHI; 1.1A {Streptomyces avidinii}
+Probab=100.00  E-value=2.7e-36  Score=232.54  Aligned_cols=126  Identities=100%  Similarity=1.481  Sum_probs=111.7  Template_Neff=5.600
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS   81 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~TsWs   81 (127)
+                      .|+++|+|+|||||+|.|..+++|.|+|+|+|+|++++.+|+++|+++..++.+..+++|+|+|.|++.+.+++|+|+|+
+T Consensus        38 ~~~l~GtW~NelGS~M~I~~~~~G~isG~Y~TaVg~~g~~~~lsG~~g~~~~~~~~g~t~gFtV~W~n~~~~~~S~TsWt  117 (183)
+T 5N8W_A           38 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS  117 (183)
+T ss_dssp             --CCCEEEECSSSCEEEEEECTTSEEEEEEECTTCCGGGCEEEEEEECSSCCSSSCCEEEEEEEEEECSSCEEEEEEEEE
+T ss_pred             ccCceeEEEcCCCCEEEEEeCCCCcEEEEEECCCCCCCCeEEecccccCCCCcCCCCCeEEEEEEeeCCCCCCCcceeEE
+Confidence            58999999999999999999889999999999999988889999998876555567999999999998666789999999
+
+
+Q 3RY2_1|Chains    82 GQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAAS  127 (127)
+Q Consensus        82 GQ~~~~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~p~~~~  127 (127)
+                      |||+.+++|+|+|+|+|++...+++.|+++++|+|+|+|++|.+++
+T Consensus       118 GQc~~dg~e~L~T~WlL~~~~s~~d~W~st~iG~D~FtR~~~~~~~  163 (183)
+T 5N8W_A          118 GQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAAS  163 (183)
+T ss_dssp             EEEECSTTCEEEEEEEEEECCCGGGGGGCEEEEEEEEESSCCC---
+T ss_pred             EEEEcCCcceEEEEEEEeccCCcchhcceEEECCcceEecCCChHH
+Confidence            9999878899999999999887789999999999999999988763
+
+
+No 12
+>5N8B_D Streptavidin, GLU-TRP-VAL-HIS-PRO-GLN-PHE-GLU-GLN-LYS-ALA-LYS Peptide; STREPTAVIDIN, HPQ MOTIF, STREPTAVIDIN PEPTIDE; 1.03A {Streptomyces avidinii}
+Probab=100.00  E-value=4e-36  Score=231.58  Aligned_cols=126  Identities=100%  Similarity=1.481  Sum_probs=114.8  Template_Neff=5.600
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS   81 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~TsWs   81 (127)
+                      .|+++|+|+|||||+|+|..+++|.|+|+|+|+|++++.+|+++|+++..++.+..+++|+|+|.|++.+.+++|+|+|+
+T Consensus        38 ~~~l~GtW~NelGS~M~I~~~~~G~isG~Y~TaVg~~g~~~~~sG~~g~~~~~~~~g~t~gFtV~W~n~~~~~~S~TsWt  117 (183)
+T 5N8B_D           38 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS  117 (183)
+T ss_pred             ccCCceEEEcCCCCEEEEEeCCCCcEEEEEECCCCCCCCeeecccccccCCCCCCCCCeEEEEEEcccCCCCCCCceeEE
+Confidence            58999999999999999999889999999999999988889999998876554567999999999998666789999999
+
+
+Q 3RY2_1|Chains    82 GQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAAS  127 (127)
+Q Consensus        82 GQ~~~~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~p~~~~  127 (127)
+                      |||+.+++++|+|+|+|++...+++.|+++++|+|+|+|++|.+++
+T Consensus       118 GQc~~dg~e~L~T~WlL~~~~s~~d~W~at~vG~D~FtR~~~~~~~  163 (183)
+T 5N8B_D          118 GQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAAS  163 (183)
+T ss_pred             eeeEeCCCeEEEEEEEEeeeCCcccccccEEEcCceeEecCCCHHH
+Confidence            9999878899999999999887789999999999999999988764
+
+
+No 13
+>6AUL_A Streptavidin; streptavidin, biotin, artificial metalloprotein, Co4O4; HET: BTN; 1.36A {Streptomyces avidinii}
+Probab=100.00  E-value=4.2e-36  Score=226.96  Aligned_cols=126  Identities=98%  Similarity=1.455  Sum_probs=110.2  Template_Neff=5.900
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS   81 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~TsWs   81 (127)
+                      .|++.|+|+|||||+|.|..+++|.|+|+|+|+|++.+.+++++|+++..++.+..+++|+|+|.|++.+.+++|+|+|+
+T Consensus        14 ~~~l~GtW~NelGS~m~I~~~~~G~isG~Y~Tav~~~~~~~~~~G~~g~~~~~~~~g~~~gFtV~W~n~~~~~~S~Tsw~   93 (159)
+T 6AUL_A           14 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS   93 (159)
+T ss_dssp             HHHHSEEEEETTCCEEEEEECTTSEEEEEEECSSSSCCSCEEEEEEECSSCCSSSCCEEEEEEEEEECSSCEEEEEEEEE
+T ss_pred             cccceeEEEcCCCCEEEEEeCCCCcEEEEEECCCCCCCCeEEecccccCCCCcCCCCCeEEEEEEeeCCCCCCCcceeEE
+Confidence            58999999999999999999889999999999999988889999998876554567999999999998666789999999
+
+
+Q 3RY2_1|Chains    82 GQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAAS  127 (127)
+Q Consensus        82 GQ~~~~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~p~~~~  127 (127)
+                      |||+.+++++|+|+|+|++...+.+.|+++++|+|+|+|++|.+|+
+T Consensus        94 GQc~~~g~e~L~T~WlL~~~~~~~~~W~st~~G~D~FtR~~~~~~~  139 (159)
+T 6AUL_A           94 GQYVGGAQARINTQWLLTYGTTEANAWASTLVGHDTFTKVKPSAAS  139 (159)
+T ss_dssp             EEEECSTTCEEEEEEEEEECCCGGGGGGCEEEEEEEEECC------
+T ss_pred             EeEecCCcceEEEEEEEEecCCcccccceEEEcCcceEecCCChHH
+Confidence            9999778899999999999987789999999999999999988763
+
+
+No 14
+>6GMI_A Streptavidin; Biotin-Binding Protein, Artificial Transfer Hydrogenase; HET: 4IR; 1.6A {Streptomyces avidinii}
+Probab=100.00  E-value=1.5e-35  Score=228.09  Aligned_cols=126  Identities=96%  Similarity=1.444  Sum_probs=110.6  Template_Neff=5.300
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS   81 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~TsWs   81 (127)
+                      .|++.|.|+|||||+|+|...++|.|+|+|+|+|+.++..++++|+++..+..+..+++|+|+|.|++.+.+++|+|+|+
+T Consensus        13 ~c~l~G~W~NelGS~M~I~~~~~G~isG~Y~TaV~~~~~~~~~sG~~g~~~~~~~~g~t~gFtV~W~n~~~~~~S~Tsws   92 (181)
+T 6GMI_A           13 QAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS   92 (181)
+T ss_pred             CCCCceEEEcCCCCeEEEEECCCCcEEEEEEcCCCCCCCceeccccccCCCCCCCCCCeEEEEEEccCCCCCCCcceeEE
+Confidence            58999999999999999999889999999999999988889999998876554567999999999998776788999999
+
+
+Q 3RY2_1|Chains    82 GQYVGGAEARINTQWLLTSGT------------TE-----------ANAWKSTLVGHDTFTKVKPSAAS  127 (127)
+Q Consensus        82 GQ~~~~~~~~i~T~WlL~~~~------------~~-----------~d~W~sT~vG~D~FtR~~p~~~~  127 (127)
+                      |||+.+++++|+|+|||+...            .+           .+.|+++++|+|+|+|++|.+++
+T Consensus        93 GQc~~~g~e~L~T~WlL~~~~~~~~~~~~~~~~~~~~~~~atr~~~~~~w~s~~vG~D~FtR~~~~~~~  161 (181)
+T 6GMI_A           93 GQYVGGAEARINTQWLLTVGTTSPLSEALTKANSPAEAYKASRGAGANAWASTLVGHDTFTKVKPSAAS  161 (181)
+T ss_pred             EeeEeCCCeEEEEEEEEEecCCCCCCCCccccCCcccchhhcccCCCcccccEEecCcceEecCCCHHH
+Confidence            999977889999999999533            22           56777777999999999998764
+
+
+No 15
+>4I60_A Avidin; Beta barrel, Biotin-binding protein, Biotinylruthenocene; HET: NAG, B1R; 2.5A {Gallus gallus}
+Probab=100.00  E-value=3.2e-35  Score=214.13  Aligned_cols=117  Identities=32%  Similarity=0.616  Sum_probs=103.8  Template_Neff=7.000
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVT-AGADGALTGTYESAVGNAES---RYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSA   77 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~-~~~~G~l~G~Y~taV~~a~~---~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~   77 (127)
+                      +|+++|.|+|||||+|.|. .+++|.|+|+|+|+|+.++.   ++++.|++...+  ...+++|+|+|.|++    ++|+
+T Consensus         3 ~c~l~G~W~Ne~GS~m~i~~~~~~G~i~G~Y~tav~~~~~~~~~~~l~G~~~~~~--~~~~~~~~F~V~w~~----~~S~   76 (128)
+T 4I60_A            3 KCSLTGKWTNDLGSNMTIGAVNSKGEFTGTYTTAVTATSNEIKESPLHGTQNTIN--KRTQPTFGFTVNWKF----SEST   76 (128)
+T ss_dssp             TTCCCEEEEETTSCEEEECCCCTTSEEEEEEECSCCSCSSCCCCEEEEEEECCSS--CCSSCEEEEEEECSS----SSCE
+T ss_pred             ccccccEEEcCCCCeEEEEEeCCCCeEEEEEEcCCCCCCCceeeeceEEEEcCCC--CCCCCEEEEEEEccC----CCce
+Confidence            6999999999999999997 68889999999999988754   488999876533  346899999999997    7899
+
+
+Q 3RY2_1|Chains    78 TTWSGQYVG--GAEARINTQWLLTSGT-TEANAWKSTLVGHDTFTKVKPS  124 (127)
+Q Consensus        78 TsWsGQ~~~--~~~~~i~T~WlL~~~~-~~~d~W~sT~vG~D~FtR~~p~  124 (127)
+                      |+|+|||+.  +++++|+|+|||+..+ .+++.|+++++|+|+|+|++|.
+T Consensus        77 Tsw~Gqc~~~~~g~e~i~T~WlL~~~~~~~~~~W~st~~G~D~Ftr~~~~  126 (128)
+T 4I60_A           77 TVFTGQCFIDRNGKEVLKTMWLLRSSVNDIGDDWKATRVGINIFTRLRTQ  126 (128)
+T ss_dssp             EEEEEEEEECTTSCEEEEEEEEEECCCSSGGGGGGSEEEEEEEEEEECSS
+T ss_pred             EEEEEEEEECCCCcEEEEEEEEEEeccCCcccccccEEEecceeEecCCC
+Confidence            999999996  3678999999999998 6789999999999999999875
+
+
+No 16
+>1VYO_A AVIDIN; GLYCOPROTEIN, BIOTIN; HET: GOL; 1.48A {GALLUS GALLUS}
+Probab=100.00  E-value=6e-35  Score=212.57  Aligned_cols=117  Identities=32%  Similarity=0.606  Sum_probs=101.4  Template_Neff=7.100
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVT-AGADGALTGTYESAVGNAES---RYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSA   77 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~-~~~~G~l~G~Y~taV~~a~~---~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~   77 (127)
+                      +|+++|.|+|||||+|.|. ++++|.|+|+|+|+|+..++   ++++.|++...+  ...+++|+|+|.|++    ++|+
+T Consensus         3 ~c~l~G~W~Ne~GS~m~i~~~~~~G~i~G~Y~tav~~~~~~~~~~~l~G~~~~~~--~~~~~~~~F~V~w~~----~~S~   76 (128)
+T 1VYO_A            3 KCSLTGKWTNDLGSNMTIGAVNSRGEFTGTYITAVTATSNEIKESPLHGTQNTIN--KRTQPTFGFTVNWKF----SEST   76 (128)
+T ss_dssp             CCCCCEEEEETTSCEEEECCCCTTSEEEEEEECSCCSSSSCCCCEEEEEEECCGG--GCSSCEEEEEEECSS----SSCE
+T ss_pred             ccccccEEEcCCCCeEEEEEeCCCCeEEEEEEcCCcCCCCcceeeceEEEecCCC--CCCCCEEEEEEEccC----CCce
+Confidence            7999999999999999999 68899999999999987653   588999875432  346899999999997    7899
+
+
+Q 3RY2_1|Chains    78 TTWSGQYVG--GAEARINTQWLLTSGT-TEANAWKSTLVGHDTFTKVKPS  124 (127)
+Q Consensus        78 TsWsGQ~~~--~~~~~i~T~WlL~~~~-~~~d~W~sT~vG~D~FtR~~p~  124 (127)
+                      |+|+|||+.  +++|+|+|+|+|++.. .+++.|+++++|+|+|+|++|.
+T Consensus        77 Tsw~Gqc~~~~~g~e~l~T~WlL~~~~~~~~~~W~st~~G~D~Ftr~~~~  126 (128)
+T 1VYO_A           77 TVFTGQCFIDRNGKEVLKTMWLLRSSVNDIGDDWKATRVGINIFTRLRTQ  126 (128)
+T ss_dssp             EEEEEEEEECTTSCEEEEEEEEEECCCSSGGGGGGCEEEEEEEEEEC---
+T ss_pred             EEEEEEEEECCCCcEEEEEEEEEEeccCCcccccccEEEecceeEecCCC
+Confidence            999999996  3678999999999998 6789999999999999999875
+
+
+No 17
+>2C1S_B BIOTIN BINDING PROTEIN A; BIOTIN BINDING PROTEIN; HET: BSO; 1.75A {GALLUS GALLUS}
+Probab=100.00  E-value=6.7e-35  Score=211.82  Aligned_cols=117  Identities=32%  Similarity=0.635  Sum_probs=101.1  Template_Neff=7.100
+
+Q 3RY2_1|Chains     1 AEAGITGTWYNQLGSTFIVTA-GADGALTGTYESAVGNAES---RYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHS   76 (127)
+Q Consensus         1 ~~c~l~G~W~NeLGS~m~i~~-~~~G~l~G~Y~taV~~a~~---~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S   76 (127)
+                      .+|+++|.|+|||||+|.|.. +++|.|+|+|+|+|+....   ++++.|++... .....+++|+|+|.|++    ++|
+T Consensus         3 ~~c~l~G~W~NelGS~m~i~~~~~~G~i~G~Y~tav~~~~~~~~~~~l~G~~~~~-~~~~~~~~~~F~V~w~~----~~S   77 (126)
+T 2C1S_B            3 RKCELQGLWRNELGSNMTISALDVAGTFSGSYQTAVTATNKQILVSPLKGAQQPP-GTKGQQPTFGFTVQWQF----ADS   77 (126)
+T ss_dssp             CTTCSCEEEEETTSCEEEECCCCTTSEEEEEEECSCCSSSSCCCCEEEEEEECCC-CSSSCCCEEEEEEECSS----SSC
+T ss_pred             CccccceEEEcCCCCeEEEEEeCCCCeEEEEEEcCcccCCCeEEEeccccccCCC-CCCCCCCeEEEEEEccC----CCc
+Confidence            379999999999999999998 7889999999999988665   47888876422 12346899999999997    789
+
+
+Q 3RY2_1|Chains    77 ATTWSGQYVGG--AEARINTQWLLTSGT-TEANAWKSTLVGHDTFTKVK  122 (127)
+Q Consensus        77 ~TsWsGQ~~~~--~~~~i~T~WlL~~~~-~~~d~W~sT~vG~D~FtR~~  122 (127)
+                      +|+|+|||+.+  ++|+|+|+|||++.+ .+++.|+++++|+|+|+|++
+T Consensus        78 ~t~w~Gqc~~~~~g~e~l~T~WlL~~~~~~~~~~W~st~~G~D~Ftr~~  126 (126)
+T 2C1S_B           78 TTVFVGQCFVDRRGKEMLEMAWLLREEVPSRKDTWKATRVGTNVFTRVK  126 (126)
+T ss_dssp             EEEEEEEEEECTTCCEEEEEEEEEECCCSSGGGGGGSEEEEEEEEEEC-
+T ss_pred             eEEEEEEEEECCCCcEEEEEEEEEEecCCChhcccccEEeccceeEecC
+Confidence            99999999854  678999999999987 67899999999999999975
+
+
+No 18
+>6S4Q_A Streptavidin; Biotin-Binding Protein, Artificial Transfer Hydrogenase; HET: 4IR, GOL; 1.85A {Streptomyces avidinii}
+Probab=100.00  E-value=1.2e-34  Score=241.23  Aligned_cols=125  Identities=98%  Similarity=1.472  Sum_probs=110.5  Template_Neff=5.800
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS   81 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~TsWs   81 (127)
+                      -|++.|+|+|||||+|+|.+.++|.|+|+|+|+|+.++..|++.|+++..++.+..+++|+|+|.|++...+++|+|+|+
+T Consensus        14 ~~~l~GtW~NelGS~M~I~~~~~G~i~G~Y~Tavg~~g~~y~l~G~~~~~~~~~~~g~~~~FtV~W~~~~~~~~S~TsWs   93 (343)
+T 6S4Q_A           14 QAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS   93 (343)
+T ss_dssp             HHHHSEEEEETTSCEEEEEECTTSEEEEEEECSSSSCCSCEEEEEEECSSCCSSSCCEEEEEEEEEECSSCEEEEEEEEE
+T ss_pred             cccccEEEEeCCCCEEEEEeCCCCcEEEEEEcCCCCCCceEEeeeEecCCCCCCCCCCeEEEEEEeeCCcCccceeeEEE
+Confidence            37999999999999999999889999999999999887789999998776555567999999999997555689999999
+
+
+Q 3RY2_1|Chains    82 GQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAA  126 (127)
+Q Consensus        82 GQ~~~~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~p~~~  126 (127)
+                      |||+.+++++|+|+|||+....+.+.|+++++|+|+|+|++|..+
+T Consensus        94 GQ~~~~g~e~I~T~WlL~~~~~~~~~W~st~iG~D~FtR~~~~~~  138 (343)
+T 6S4Q_A           94 GQYVGGAEARINTQWLLTSGTTEANAWASTLVGHDTFTKVKPSAA  138 (343)
+T ss_dssp             EEEECSTTCEEEEEEEEEECCCGGGGGGCEEEEEEEEESCC----
+T ss_pred             EEEecCCccEEEEEEEEEecCCcchhcccEEEcCceeEEcCCChH
+Confidence            999987789999999999998778999999999999999998764
+
+
+No 19
+>2C1Q_A BIOTIN BINDING PROTEIN A; BIOTIN BINDING PROTEIN; HET: BTN; 2.1A {GALLUS GALLUS}
+Probab=100.00  E-value=1.5e-34  Score=210.05  Aligned_cols=117  Identities=32%  Similarity=0.635  Sum_probs=101.0  Template_Neff=7.100
+
+Q 3RY2_1|Chains     1 AEAGITGTWYNQLGSTFIVTA-GADGALTGTYESAVGNAES---RYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHS   76 (127)
+Q Consensus         1 ~~c~l~G~W~NeLGS~m~i~~-~~~G~l~G~Y~taV~~a~~---~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S   76 (127)
+                      .+|++.|.|+|||||+|.|.. +++|.|+|+|+|+|+....   ++++.|++... .....+++|+|+|.|++    ++|
+T Consensus         3 ~~c~l~G~W~Ne~GS~m~i~~~~~~G~i~G~Y~tav~~~~~~~~~~~l~G~~~~~-~~~~~~~~~~F~V~w~~----~~S   77 (126)
+T 2C1Q_A            3 RKCELQGLWRNELGSNMTISALDVAGTFSGSYQTAVTATNKQILVSPLKGAQQPP-GTKGQQPTFGFTVQWQF----ADS   77 (126)
+T ss_dssp             CTTCSCEEEEETTCCEEEECCCCTTSEEEEEEECSCCSSSSCCCCEEEEEEECCC-C--CCCCCEEEEEECSS----SSC
+T ss_pred             CccccceEEEcCCCCEEEEEEECCCCcEEEEEEcCCCCCCCeeeeecccccccCC-CCCCCCCeEEEEEEcCC----CCc
+Confidence            379999999999999999998 7889999999999987655   47888876422 12346899999999997    789
+
+
+Q 3RY2_1|Chains    77 ATTWSGQYVGG--AEARINTQWLLTSGT-TEANAWKSTLVGHDTFTKVK  122 (127)
+Q Consensus        77 ~TsWsGQ~~~~--~~~~i~T~WlL~~~~-~~~d~W~sT~vG~D~FtR~~  122 (127)
+                      +|+|+|||+.+  ++|+|+|+|||++.+ .+++.|+++++|+|+|+|++
+T Consensus        78 ~tsw~Gqc~~~~~g~e~l~T~WlL~~~~~~~~~~W~st~~G~D~Ftr~~  126 (126)
+T 2C1Q_A           78 TTVFVGQCFVDRRGKEMLEMAWLLREEVPSRKDTWKATRVGTNVFTRVK  126 (126)
+T ss_dssp             EEEEEEEEEECTTSCEEEEEEEEEECCCSSGGGGGGCEEEEEEEEEECC
+T ss_pred             eEEEEEEEEECCCCCEEEEEEEEEEecCCCcccccccEEEcccccEecC
+Confidence            99999999854  678999999999987 67899999999999999975
+
+
+No 20
+>2FHN_Y Avidin-related protein 4/5; avidin, streptavidin, AVR4, high affinity; HET: BNI, FMT; 1.3A {Gallus gallus}
+Probab=100.00  E-value=1.5e-34  Score=209.98  Aligned_cols=116  Identities=31%  Similarity=0.557  Sum_probs=97.6  Template_Neff=7.100
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVT-AGADGALTGTYESAVGNAES---RYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSA   77 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~-~~~~G~l~G~Y~taV~~a~~---~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~   77 (127)
+                      +|+++|.|+|||||+|.|. .+++|.|+|+|+|+|+..+.   .+++.|+..   . ...+++|+|+|.|++    ++|+
+T Consensus         3 ~c~l~G~W~Ne~GS~m~i~~~~~~G~i~G~Y~tav~~~~~~~~~~~~~G~~~---~-~~~~~~~~F~V~w~~----~~S~   74 (126)
+T 2FHN_Y            3 KCSLTGKWTNNLGSIMTIRAVNSRGEFTGTYLTAVADNPGNITLSPLLGIQH---K-RASQPTFGFTVHWNF----SEST   74 (126)
+T ss_dssp             CCCCCEEEEETTSCEEEECCCCTTSEEEEEEECSCCSSGGGCCCEEEEEEEC---S-SCSSCEEEEEEECTT----SSCE
+T ss_pred             ccccccEEEcCCCCeEEEEEeCCCCcEEEEEEcCCCCCCCceeeeccccccc---c-CCCCCeEEEEEEccC----CCce
+Confidence            7999999999999999999 68899999999999988765   344555432   1 256899999999997    7899
+
+
+Q 3RY2_1|Chains    78 TTWSGQYVG--GAEARINTQWLLTSGT-TEANAWKSTLVGHDTFTKVKPSA  125 (127)
+Q Consensus        78 TsWsGQ~~~--~~~~~i~T~WlL~~~~-~~~d~W~sT~vG~D~FtR~~p~~  125 (127)
+                      |+|+|||+.  +++|+|+|+|+|++.. .+++.|+++++|+|+|+|++++.
+T Consensus        75 Tsw~Gqc~~~~~g~e~i~T~WlL~~~~~~~~~~W~at~~G~D~Ftr~~~~~  125 (126)
+T 2FHN_Y           75 TVFTGQCFIDRNGKEVLKTMWLLRSSVNDISYDWIATRVGYNNFTRLSTVE  125 (126)
+T ss_dssp             EEEEEEEEECTTCCEEEEEEEEEECCCSSGGGGGGCEEEEEEEEEEC----
+T ss_pred             EEEEEEEEECCCCcEEEEEEEEEEeccCCcccccccEEEcccceEecCCCC
+Confidence            999999996  3679999999999988 57899999999999999998764
+
+
+No 21
+>2MF6_C Avidin, Avidin-related protein 4/5; BIOTIN BINDING PROTEIN; NMR {Gallus gallus}
+Probab=99.96  E-value=2.6e-34  Score=209.60  Aligned_cols=115  Identities=33%  Similarity=0.612  Sum_probs=100.6  Template_Neff=7.000
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVT-AGADGALTGTYESAVGNAESR---YVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSA   77 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~-~~~~G~l~G~Y~taV~~a~~~---~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~   77 (127)
+                      +|++.|.|+|||||+|.|. .+++|.|+|+|+|+|+.....   +++.|+...    ...+++|+|+|.|++    ++|+
+T Consensus         6 ~c~l~G~W~Ne~GS~m~i~~~~~~G~i~G~Y~tav~~~~~~~~~~~~~G~~~~----~~~~~~~~FtV~w~~----~~S~   77 (129)
+T 2MF6_C            6 KCSLTGKWTNDLGSNMTIGAVNSRGEFTGTYITAVADNPGNITLSPLLGIQHK----RASQPTFGFTVNWKF----SEST   77 (129)
+T ss_dssp             CCCCSEEEEETTSCEEEECCCCTTSEEEEEEECSCCSSCTTCCCEEEEEEECC----SSSSCEEEEEEECSS----SSCE
+T ss_pred             ccccCcEEEcCCCCeEEEEEeCCCCcEEEEEEcCCCCCCCCcceecceeeecC----CCCCCeEEEEEEccC----CCce
+Confidence            6999999999999999999 688999999999999887653   556665321    257899999999997    7899
+
+
+Q 3RY2_1|Chains    78 TTWSGQYVG--GAEARINTQWLLTSGT-TEANAWKSTLVGHDTFTKVKPS  124 (127)
+Q Consensus        78 TsWsGQ~~~--~~~~~i~T~WlL~~~~-~~~d~W~sT~vG~D~FtR~~p~  124 (127)
+                      |+|+|||+.  +++|+|+|+|||++.. .+++.|+++++|+|+|+|++|.
+T Consensus        78 Tsw~Gqc~~~~~g~e~l~T~WlL~~~~~~~~~~W~st~~G~D~Ftr~~~~  127 (129)
+T 2MF6_C           78 TVFTGQCFIDRNGKEVLKTMWLLRSSVNDIGDDWKATRVGYNIFTRLRTQ  127 (129)
+T ss_dssp             EEEEEEEEEETTTEEEEEEEEEEECCCSSGGGHHHHEEEEEEEEEECCCC
+T ss_pred             EEEEEEEEECCCCcEEEEEEEEEEeccCCcccccccEEEecceeEecCCC
+Confidence            999999996  3678999999999998 6789999999999999999875
+
+
+No 22
+>1Y55_Y Avidin-related protein 4/5; avidin, streptavidin, biotin, avidin related; HET: FMT, BTN; 1.0A {Gallus gallus}
+Probab=99.96  E-value=3.8e-34  Score=207.86  Aligned_cols=116  Identities=32%  Similarity=0.572  Sum_probs=100.5  Template_Neff=7.100
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVT-AGADGALTGTYESAVGNAES---RYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSA   77 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~-~~~~G~l~G~Y~taV~~a~~---~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~   77 (127)
+                      +|+++|.|+|||||+|.|. .+++|.|+|+|+|+|+....   .+++.|+..   . ...+++|+|+|.|++    ++|+
+T Consensus         3 ~c~l~G~W~Ne~GS~m~i~~~~~~G~i~G~Y~tav~~~~~~~~~~~~~G~~~---~-~~~~~~~~FtV~w~~----~~S~   74 (126)
+T 1Y55_Y            3 KCSLTGKWTNNLGSIMTIRAVNSRGEFTGTYLTAVADNPGNITLSPLLGIQH---K-RASQPTFGFTVHWNF----SEST   74 (126)
+T ss_dssp             CCCCCEEEEETTSCEEEECCCCTTSEEEEEEECSCCSSGGGCCCEEEEEEEC---S-SCSSCEEEEEEECTT----SSCE
+T ss_pred             ccccccEEEcCCCCeEEEEEeCCCCcEEEEEEcCCCCCCCceeeeccccccc---c-CCCCCeEEEEEEccC----CCce
+Confidence            7999999999999999999 68889999999999988765   345555532   1 256899999999997    7899
+
+
+Q 3RY2_1|Chains    78 TTWSGQYVG--GAEARINTQWLLTSGT-TEANAWKSTLVGHDTFTKVKPSA  125 (127)
+Q Consensus        78 TsWsGQ~~~--~~~~~i~T~WlL~~~~-~~~d~W~sT~vG~D~FtR~~p~~  125 (127)
+                      |+|+|||+.  +++++|+|+|+|++.. .+++.|+++++|+|+|+|++++.
+T Consensus        75 T~w~Gqc~~~~~g~e~l~T~WlL~~~~~~~~~~W~st~~G~D~Ftr~~~~~  125 (126)
+T 1Y55_Y           75 TVFTGQCFIDRNGKEVLKTMWLLRSSVNDISYDWKATRVGYNNFTRLSTVE  125 (126)
+T ss_dssp             EEEEEEEEECTTSCEEEEEEEEEECCCSSGGGGGGCEEEEEEEEEECCEEE
+T ss_pred             EEEEEEEEECCCCcEEEEEEEEEEeccCCcccccccEEEcccceEecCCCC
+Confidence            999999996  3678999999999998 57899999999999999998764
+
+
+No 23
+>4BJ8_D ZEBAVIDIN; BIOTIN-BINDING PROTEIN; HET: BTN; 2.4A {DANIO RERIO}
+Probab=99.96  E-value=4e-34  Score=207.92  Aligned_cols=113  Identities=33%  Similarity=0.587  Sum_probs=93.8  Template_Neff=7.000
+
+Q 3RY2_1|Chains     1 AEAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAES------RYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNA   74 (127)
+Q Consensus         1 ~~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~~------~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~   74 (127)
+                      .+|+++|+|+|||||+|.|.. ++|.|+|+|+|+|+...+      ++++.|+.    . +..+++|+|+|.|++     
+T Consensus         4 ~~c~l~G~W~NelGS~m~i~~-~~g~i~G~Y~tav~~~~~~~~~~~~~~~~G~~----~-~~~~~~~~FtV~w~~-----   72 (126)
+T 4BJ8_D            4 SSCNVTGVWRNELGSTLRVKA-EGSEVRGVYQTAVESTRGAAGHHRSARIIGMV----S-DGTQPTVSFSVLWEK-----   72 (126)
+T ss_dssp             CCCCCCEEEEETTSCEEEEEE-ETTEEEEEEECSCCSSTTTTCGGGEEEEEEEE----C-CSSSCEEEEEEECTT-----
+T ss_pred             cccccceEEEcCCCCEEEEEE-cCCEEEEEEEcCCccCCCCCccceeEeEEeec----C-CCCCCeEEEEEEecC-----
+Confidence            379999999999999999998 789999999999987554      23444442    1 345899999999995     
+
+
+Q 3RY2_1|Chains    75 HSATTWSGQYVGG--AEARINTQWLLTSGT-TEANAWKSTLVGHDTFTKVKPS  124 (127)
+Q Consensus        75 ~S~TsWsGQ~~~~--~~~~i~T~WlL~~~~-~~~d~W~sT~vG~D~FtR~~p~  124 (127)
+                      .|+|+|+|||+.+  ++|+|+|+|||+... .+++.|+++++|+|+|+|+++.
+T Consensus        73 ~S~Tsw~Gqc~~~~~g~e~l~T~WlL~~~~~~~~~~W~at~~G~D~Ftr~~~~  125 (126)
+T 4BJ8_D           73 GSCSAWVGQCFILDDGAQVLKTFWMLRSVADNLASAWGSTRMGEDIFFKTGVS  125 (126)
+T ss_dssp             SCEEEEEEEEEECTTSCEEEEEEEEEECCCSSGGGGTTCEEEEEEEEEEC---
+T ss_pred             CceEEEEEEEEECCCCCEEEEEEEEEEecccchhhhcccEEecccceEecCCC
+Confidence            4899999999864  678999999999987 4789999999999999999874
+
+
+No 24
+>4BJ8_O ZEBAVIDIN; BIOTIN-BINDING PROTEIN; HET: BTN; 2.4A {DANIO RERIO}
+Probab=99.96  E-value=4e-34  Score=207.92  Aligned_cols=113  Identities=33%  Similarity=0.587  Sum_probs=93.8  Template_Neff=7.000
+
+Q 3RY2_1|Chains     1 AEAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAES------RYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNA   74 (127)
+Q Consensus         1 ~~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~~------~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~   74 (127)
+                      .+|+++|+|+|||||+|.|.. ++|.|+|+|+|+|+...+      ++++.|+.    . +..+++|+|+|.|++     
+T Consensus         4 ~~c~l~G~W~NelGS~m~i~~-~~g~i~G~Y~tav~~~~~~~~~~~~~~~~G~~----~-~~~~~~~~FtV~w~~-----   72 (126)
+T 4BJ8_O            4 SSCNVTGVWRNELGSTLRVKA-EGSEVRGVYQTAVESTRGAAGHHRSARIIGMV----S-DGTQPTVSFSVLWEK-----   72 (126)
+T ss_dssp             CSCCCSEEEEETTCCEEEEEE-ETTEEEEEEECSCCSSTTSSCTTSEEEEEEEE----C-SSSSCEEEEEEECTT-----
+T ss_pred             cccccceEEEcCCCCEEEEEE-cCCEEEEEEEcCCccCCCCCccceeEeEEeec----C-CCCCCeEEEEEEecC-----
+Confidence            379999999999999999998 789999999999987554      23444442    1 345899999999995     
+
+
+Q 3RY2_1|Chains    75 HSATTWSGQYVGG--AEARINTQWLLTSGT-TEANAWKSTLVGHDTFTKVKPS  124 (127)
+Q Consensus        75 ~S~TsWsGQ~~~~--~~~~i~T~WlL~~~~-~~~d~W~sT~vG~D~FtR~~p~  124 (127)
+                      .|+|+|+|||+.+  ++|+|+|+|||+... .+++.|+++++|+|+|+|+++.
+T Consensus        73 ~S~Tsw~Gqc~~~~~g~e~l~T~WlL~~~~~~~~~~W~at~~G~D~Ftr~~~~  125 (126)
+T 4BJ8_O           73 GSCSAWVGQCFILDDGAQVLKTFWMLRSVADNLASAWGSTRMGEDIFFKTGVS  125 (126)
+T ss_dssp             SCEEEEEEEEEECTTCCEEEEEEEEEECCCSSTGGGGGCEEEEEEEEEEC---
+T ss_pred             CceEEEEEEEEECCCCCEEEEEEEEEEecccchhhhcccEEecccceEecCCC
+Confidence            4899999999864  678999999999987 4789999999999999999874
+
+
+No 25
+>4JNJ_A Streptavidin/Rhizavidin Hybrid; Beta barrel, Engineered Streptavidin Variant; HET: BTN; 1.902A {Streptomyces avidinii}
+Probab=99.96  E-value=5.2e-34  Score=204.78  Aligned_cols=111  Identities=65%  Similarity=1.009  Sum_probs=97.9  Template_Neff=6.800
+
+Q 3RY2_1|Chains     1 AEAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAE---SRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSA   77 (127)
+Q Consensus         1 ~~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~---~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~   77 (127)
+                      ++|++.|.|+|||||+|.|.++++|.|+|+|+|+|+..+   .++++.|++        .+++|+|+|.|++...+++|+
+T Consensus         2 ~~~~l~G~W~Ne~GS~m~i~~~~~G~i~G~Y~tav~~~g~~~~~~~l~G~~--------~~~~~~f~V~w~n~~~~~~S~   73 (115)
+T 4JNJ_A            2 AEAGITGTWYNQSGSTFTVTAGADGNLTGQYENRAQGTGCQNSPYTLTGRY--------NGTKLEWRVEWNNSTENCHSR   73 (115)
+T ss_dssp             GGGGTCEEEEETTSCEEEEEECTTSEEEEEEECCCTTCSSCSSCEEEEEEE--------ETTEEEEEEEEECSSCEEEEE
+T ss_pred             CccccceEEEcCCCCEEEEEECCCCCEEEEEEcCCCCCCCCCceEEEEEEE--------cCCeEEEEEEecCCCCCCcce
+Confidence            689999999999999999999999999999999875543   357888886        268999999999744568999
+
+
+Q 3RY2_1|Chains    78 TTWSGQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVK  122 (127)
+Q Consensus        78 TsWsGQ~~~~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~  122 (127)
+                      |+|+|||+.+++|+|+|+|+|+....   .|+++++|+|+|+|+|
+T Consensus        74 tsw~Gq~~~~~~e~i~T~Wll~~~~~---~w~s~~~G~D~Ftr~~  115 (115)
+T 4JNJ_A           74 TEWRGQYQGGAEARINTQWNLTYEGG---SGPATEQGQDTFTKVK  115 (115)
+T ss_dssp             EEEEEEEECSSSCEEEEEEEEEEECS---SSEEEEEEEEEEEECC
+T ss_pred             eEEEEEeecCCCCeEEEEEEEEeecC---CCCcEEEcccceEecC
+Confidence            99999999777899999999999864   6999999999999975
+
+
+No 26
+>4JNJ_D Streptavidin/Rhizavidin Hybrid; Beta barrel, Engineered Streptavidin Variant; HET: BTN; 1.902A {Streptomyces avidinii}
+Probab=99.96  E-value=5.2e-34  Score=204.78  Aligned_cols=111  Identities=65%  Similarity=1.009  Sum_probs=97.2  Template_Neff=6.800
+
+Q 3RY2_1|Chains     1 AEAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAE---SRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSA   77 (127)
+Q Consensus         1 ~~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~---~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~   77 (127)
+                      ++|++.|.|+|||||+|.|.++++|.|+|+|+|+|+..+   .++++.|++        .+++|+|+|.|++...+++|+
+T Consensus         2 ~~~~l~G~W~Ne~GS~m~i~~~~~G~i~G~Y~tav~~~g~~~~~~~l~G~~--------~~~~~~f~V~w~n~~~~~~S~   73 (115)
+T 4JNJ_D            2 AEAGITGTWYNQSGSTFTVTAGADGNLTGQYENRAQGTGCQNSPYTLTGRY--------NGTKLEWRVEWNNSTENCHSR   73 (115)
+T ss_dssp             -CTTTSEEEECTTSCEEEEEECSSSEEEEEEECCCTTCSSCSSCEEEEEEE--------ETTEEEEEEEEECSSCEEEEE
+T ss_pred             CccccceEEEcCCCCEEEEEECCCCCEEEEEEcCCCCCCCCCceEEEEEEE--------cCCeEEEEEEecCCCCCCcce
+Confidence            689999999999999999999999999999999875543   357888886        268999999999744568999
+
+
+Q 3RY2_1|Chains    78 TTWSGQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVK  122 (127)
+Q Consensus        78 TsWsGQ~~~~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~  122 (127)
+                      |+|+|||+.+++|+|+|+|+|+....   .|+++++|+|+|+|+|
+T Consensus        74 tsw~Gq~~~~~~e~i~T~Wll~~~~~---~w~s~~~G~D~Ftr~~  115 (115)
+T 4JNJ_D           74 TEWRGQYQGGAEARINTQWNLTYEGG---SGPATEQGQDTFTKVK  115 (115)
+T ss_dssp             EEEEEEEECSSSCEEEEEEEEEEECS---SSEEEEEEEEEEEECC
+T ss_pred             eEEEEEeecCCCCeEEEEEEEEeecC---CCCcEEEcccceEecC
+Confidence            99999999777899999999999864   6999999999999975
+
+
+No 27
+>2UYW_D XENAVIDIN; AVIDIN, BETA-BARREL, BIOTIN-BINDING PROTEIN, GLYCOPROTEIN; HET: BTN, FMT; 1.7A {XENOPUS TROPICALIS}
+Probab=99.96  E-value=6e-34  Score=208.27  Aligned_cols=115  Identities=35%  Similarity=0.634  Sum_probs=99.4  Template_Neff=6.800
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVTA-GADGALTGTYESAVGNAES---RYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSA   77 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~~-~~~G~l~G~Y~taV~~a~~---~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~   77 (127)
+                      +|++.|.|+|||||+|.|.. +++|.|+|+|+|+|+..+.   ++++.|+++.     ..+++|+|+|.|++    ++|+
+T Consensus         5 ~c~l~G~W~NelGS~m~I~~~~~~G~i~G~Y~tav~~~~~~~~~~pl~G~~~~-----~~~~~~~FtV~w~~----~~S~   75 (130)
+T 2UYW_D            5 KCNLQGQWRNKLGSNLIIESVSQNGEFTGTYFTSVSLTNSTIRISPLTGYQKL-----TEKPTFGFTVHWAF----SDSI   75 (130)
+T ss_dssp             CCCCCEEEEETTCCEEEECCCCTTSEEEEEEECSCCSSSSCCCCEEEEEEECS-----SSSCEEEEEEECSS----SSCE
+T ss_pred             ccccccEEEcCCCCEEEEEEeCCCCcEEEEEEcCcccCCCeeEEecceeEecC-----CCCCeEEEEEEecC----CCce
+Confidence            69999999999999999996 7889999999999987655   4889998542     24889999999997    8899
+
+
+Q 3RY2_1|Chains    78 TTWSGQYVG--GAEARINTQWLLTSGT-TEANAWKSTLVGHDTFTKVKPSA  125 (127)
+Q Consensus        78 TsWsGQ~~~--~~~~~i~T~WlL~~~~-~~~d~W~sT~vG~D~FtR~~p~~  125 (127)
+                      |+|+|||+.  +++++|+|+|||+... .+.+.|+++++|+|+|+|+++++
+T Consensus        76 Tsw~Gqc~~~~~g~e~l~T~WlL~~~~~~~~~~W~at~~G~D~Ftr~~~~~  126 (130)
+T 2UYW_D           76 TVWTGQCFLNEKGEEILHTMWLLRSSQEKEQDNWTGTRVGANTFTRLSKKK  126 (130)
+T ss_dssp             EEEEEEEEECTTSCEEEEEEEEEECCCSSGGGGGGSEEEEEEEEEEC---C
+T ss_pred             EEEEEEEEECCCCcEEEEEEEEEEccCCCccccCccEEeeccceEEcCCcc
+Confidence            999999986  3678999999999987 57899999999999999998764
+
+
+No 28
+>2UZ2_A XENAVIDIN; BETA-BARREL, BIOTIN-BINDING PROTEIN, GLYCOPROTEIN; HET: BTN; 1.7A {XENOPUS TROPICALIS}
+Probab=99.96  E-value=6e-34  Score=208.27  Aligned_cols=115  Identities=35%  Similarity=0.634  Sum_probs=97.2  Template_Neff=6.800
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVTA-GADGALTGTYESAVGNAES---RYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSA   77 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~~-~~~G~l~G~Y~taV~~a~~---~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~   77 (127)
+                      +|++.|.|+|||||+|.|.. +++|.|+|+|+|+|+..+.   ++++.|+++.     ..+++|+|+|.|++    ++|+
+T Consensus         5 ~c~l~G~W~NelGS~m~I~~~~~~G~i~G~Y~tav~~~~~~~~~~pl~G~~~~-----~~~~~~~FtV~w~~----~~S~   75 (130)
+T 2UZ2_A            5 KCNLQGQWRNKLGSNLIIESVSQNGEFTGTYFTSVSLTNSTIRISPLTGYQKL-----TEKPTFGFTVHWAF----SDSI   75 (130)
+T ss_dssp             CCCCCEEEECTTCCEEEECCCCTTSEEEEEEEESCCC----CEEEEEEEEECS-----SSSCEEEEEEECTT----SSCE
+T ss_pred             ccccccEEEcCCCCEEEEEEeCCCCcEEEEEEcCcccCCCeeEEecceeEecC-----CCCCeEEEEEEecC----CCce
+Confidence            69999999999999999996 7889999999999987655   4889998542     24889999999997    8899
+
+
+Q 3RY2_1|Chains    78 TTWSGQYVG--GAEARINTQWLLTSGT-TEANAWKSTLVGHDTFTKVKPSA  125 (127)
+Q Consensus        78 TsWsGQ~~~--~~~~~i~T~WlL~~~~-~~~d~W~sT~vG~D~FtR~~p~~  125 (127)
+                      |+|+|||+.  +++++|+|+|||+... .+.+.|+++++|+|+|+|+++++
+T Consensus        76 Tsw~Gqc~~~~~g~e~l~T~WlL~~~~~~~~~~W~at~~G~D~Ftr~~~~~  126 (130)
+T 2UZ2_A           76 TVWTGQCFLNEKGEEILHTMWLLRSSQEKEQDNWTGTRVGANTFTRLSKKK  126 (130)
+T ss_dssp             EEEEEEEEECTTSCEEEEEEEEEECCCSSGGGGGGSEEEEEEEEEEC----
+T ss_pred             EEEEEEEEECCCCcEEEEEEEEEEccCCCccccCccEEeeccceEEcCCcc
+Confidence            999999986  3678999999999987 57899999999999999998764
+
+
+No 29
+>6S50_B Streptavidin; Biotin-Binding Protein, Artificial Transfer Hydrogenase; HET: 4IR, GOL; 2.0A {Streptomyces avidinii}
+Probab=99.95  E-value=1.4e-33  Score=234.81  Aligned_cols=125  Identities=98%  Similarity=1.472  Sum_probs=111.5  Template_Neff=5.900
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS   81 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~TsWs   81 (127)
+                      .|++.|+|+|||||+|+|..+++|.|+|+|+|+|+.++..|++.|++...++.+..+++|+|+|.|++...+++|+|+|+
+T Consensus        14 ~c~lsG~W~NelGS~M~I~~~~~G~isG~Y~Tav~~~~~~~~l~G~~~~~~~~~~~g~~~gFtV~W~n~~~~~~S~TsWs   93 (343)
+T 6S50_B           14 QAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS   93 (343)
+T ss_dssp             HHHHSEEEEETTSCEEEEEECTTSEEEEEEECSSSSCCSEEEEEEEECSSCCSSSCCEEEEEEEEEECSSCEEEEEEEEE
+T ss_pred             ccccceEEEcCCCCEEEEEeCCCCcEEEEEEcCCCCCCCeeeeeeEecCCCCCCCCCCeEEEEEEeeCCcCcCccceeEE
+Confidence            48999999999999999999889999999999999887799999998765554567999999999997444588999999
+
+
+Q 3RY2_1|Chains    82 GQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAA  126 (127)
+Q Consensus        82 GQ~~~~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~p~~~  126 (127)
+                      |||+.+++|+|+|+|||++...+.+.|+++++|+|+|+|++|.++
+T Consensus        94 GQc~~~g~e~i~T~WlL~~~~~~~d~W~at~vG~D~FtR~~~~~~  138 (343)
+T 6S50_B           94 GQYVGGAEARINTQWLLTSGTTEANAWASTLVGHDTFTKVKPSAA  138 (343)
+T ss_dssp             EEEECSTTCEEEEEEEEEECCCGGGGGGCEEEEEEEEESSCCC--
+T ss_pred             EEEEcCCcCeEEEEEEEeecCCcchhcceEEEcCcceEecCCChH
+Confidence            999987789999999999998778999999999999999998764
+
+
+No 30
+>6S50_A Streptavidin; Biotin-Binding Protein, Artificial Transfer Hydrogenase; HET: 4IR, GOL; 2.0A {Streptomyces avidinii}
+Probab=99.95  E-value=1.8e-33  Score=234.24  Aligned_cols=125  Identities=98%  Similarity=1.472  Sum_probs=112.4  Template_Neff=5.900
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS   81 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~TsWs   81 (127)
+                      -|++.|+|+|||||+|+|..+++|.|+|+|+|+|+.++..|++.|+++..++.+..+++|+|+|.|++...+++|+|+|+
+T Consensus        14 ~c~l~GtW~NelGS~M~I~~~~~G~isG~Y~Tav~~~~~~~~l~G~~~~~~~~~~~g~~~gFtV~W~n~~~~~~S~TsWs   93 (343)
+T 6S50_A           14 QAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS   93 (343)
+T ss_pred             ccCCceEEEcCCCCEEEEEeCCCCcEEEEEEcCCCCCCCeecceeeecCCCCCCCCCCeEEEEEEccCCCCCCceeeEEE
+Confidence            37999999999999999999889999999999999988799999998765554567999999999997444588999999
+
+
+Q 3RY2_1|Chains    82 GQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAA  126 (127)
+Q Consensus        82 GQ~~~~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~p~~~  126 (127)
+                      |||+.+++|+|+|+|||++...+.+.|+++++|+|+|+|++|.++
+T Consensus        94 GQc~~~g~e~I~T~WlL~~~~~~~~~W~at~vG~D~FtR~~~~~~  138 (343)
+T 6S50_A           94 GQYVGGAEARINTQWLLTSGTTEANAWASTLVGHDTFTKVKPSAA  138 (343)
+T ss_pred             EeEEeCCceEEEEEEEEEccCCCccccccEEEcCceeEecCCCHH
+Confidence            999987789999999999998778999999999999999998764
+
+
+No 31
+>4Z28_A short-hoefavidin; high affinity system, bacterial avidins; HET: BTB, BTN; 1.66A {Hoeflea phototrophica DFL-43}
+Probab=99.95  E-value=6.8e-33  Score=204.55  Aligned_cols=112  Identities=27%  Similarity=0.443  Sum_probs=94.3  Template_Neff=5.800
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVTAG------ADGALTGTYESA-VGNA--ESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYR   72 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~~~------~~G~l~G~Y~ta-V~~a--~~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~   72 (127)
+                      -|++.|+|+|||||+|+|...      ++|.|+|+|+++ ++..  +..+++.|++..      .+++|+|+|.|+|...
+T Consensus        13 ~~~l~G~W~NelGS~m~I~~~~~~~~~~~G~isG~Y~ta~~g~~~~~~~~~l~G~~~~------~g~~~gFtV~W~n~~~   86 (134)
+T 4Z28_A           13 LLAGASNWVNQSGSVAQFVFTPSPTQPQTYEVSGNYINNAQGTGCKGTPYPLSGAYYS------GNQIISFSVVWSNASA   86 (134)
+T ss_dssp             HHHSCEEEEETTSCEEEEEEEECSSSTTEEEEEEEEECCCTTCSSCSSEEECEEEEET------TTTEEEEEEEEECSSC
+T ss_pred             cccccEEEEeCCCCEEEEEECCCCCCCCCCeEEEEEECCCCCCCCCCceEecEEEeeC------CCCEEEEEEEeeCccc
+Confidence            589999999999999999985      889999999998 4442  347889988642      5799999999987444
+
+
+Q 3RY2_1|Chains    73 NAHSATTWSGQYVG-GAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVK  122 (127)
+Q Consensus        73 ~~~S~TsWsGQ~~~-~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~  122 (127)
+                      .++|+|+|+|||+. +++|+|+|+|||+.....   |+++++|+|+|+|.+
+T Consensus        87 ~~~S~TswsGQc~~~~g~e~l~T~WlL~~~~~~---w~st~~G~D~Ftr~~  134 (134)
+T 4Z28_A           87 NCQSATGWTGYFDFSGSQAVLKTDWNLAFYSGS---TPAIQQGQDDFMQSV  134 (134)
+T ss_dssp             EEEEEEEEEEEEECSSSSCEEEEEEEEEEEETT---EEEEEEEEEEEEEC-
+T ss_pred             cccceEEEEEEEEecCCeeEEEEEEEEEeecCC---cccEEeccceEEeCC
+Confidence            58899999999974 467899999999987633   899999999999964
+
+
+No 32
+>4Z2O_A short-hoefavidin, Hoef-peptide; protein binding, high affinity system; 1.17A {Hoeflea phototrophica DFL-43}
+Probab=99.95  E-value=6.8e-33  Score=204.55  Aligned_cols=112  Identities=27%  Similarity=0.443  Sum_probs=94.8  Template_Neff=5.800
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVTAG------ADGALTGTYESA-VGNA--ESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYR   72 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~~~------~~G~l~G~Y~ta-V~~a--~~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~   72 (127)
+                      -|++.|+|+|||||+|+|...      ++|.|+|+|+++ ++..  +..+++.|++..      .+++|+|+|.|+|...
+T Consensus        13 ~~~l~G~W~NelGS~m~I~~~~~~~~~~~G~isG~Y~ta~~g~~~~~~~~~l~G~~~~------~g~~~gFtV~W~n~~~   86 (134)
+T 4Z2O_A           13 LLAGASNWVNQSGSVAQFVFTPSPTQPQTYEVSGNYINNAQGTGCKGTPYPLSGAYYS------GNQIISFSVVWSNASA   86 (134)
+T ss_dssp             TTSSCEEEEETTSCEEEEEEEECSSSTTEEEEEEEEECCCTTCSSCSSEEECEEEEET------TTTEEEEEEEEECSSE
+T ss_pred             cccccEEEEeCCCCEEEEEECCCCCCCCCCeEEEEEECCCCCCCCCCceEecEEEeeC------CCCEEEEEEEeeCccc
+Confidence            589999999999999999985      889999999998 4442  347889988642      5799999999987444
+
+
+Q 3RY2_1|Chains    73 NAHSATTWSGQYVG-GAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVK  122 (127)
+Q Consensus        73 ~~~S~TsWsGQ~~~-~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~  122 (127)
+                      .++|+|+|+|||+. +++|+|+|+|||+.....   |+++++|+|+|+|.+
+T Consensus        87 ~~~S~TswsGQc~~~~g~e~l~T~WlL~~~~~~---w~st~~G~D~Ftr~~  134 (134)
+T 4Z2O_A           87 NCQSATGWTGYFDFSGSQAVLKTDWNLAFYSGS---TPAIQQGQDDFMQSV  134 (134)
+T ss_dssp             EEEEEEEEEEEEECSSSSCEEEEEEEEEEEETT---EEEEEEEEEEEEEEC
+T ss_pred             cccceEEEEEEEEecCCeeEEEEEEEEEeecCC---cccEEeccceEEeCC
+Confidence            58899999999974 467899999999987633   899999999999964
+
+
+No 33
+>3T2X_B Avidin/streptavidin; avidin, biotin, streptavidin, shwanavidin, high; 1.15A {Shewanella denitrificans}
+Probab=99.95  E-value=7.9e-33  Score=200.71  Aligned_cols=112  Identities=33%  Similarity=0.602  Sum_probs=97.1  Template_Neff=6.600
+
+Q 3RY2_1|Chains     1 AEAGITGTWYNQLGSTFIVT-AGADGALTGTYES-AVGNAES--RYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHS   76 (127)
+Q Consensus         1 ~~c~l~G~W~NeLGS~m~i~-~~~~G~l~G~Y~t-aV~~a~~--~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S   76 (127)
+                      +.|++.|.|+|||||+|+|. .+++|.|+|+|+| +|+....  ++++.|++        .+++|+|+|.|++...+++|
+T Consensus         5 ~~~~~~G~W~Ne~GS~m~i~~~~~~G~i~G~Y~t~avg~~~~g~~~~l~G~~--------~~~~~~F~V~w~n~~~~~~S   76 (122)
+T 3T2X_B            5 QELTAMSAWVNQDGSTLYINSINAQGELTGSYINRAAGAACQNSPYPVNGWV--------FGTAISFSTKWLNSVESCNS   76 (122)
+T ss_dssp             CCSCSSEEEECTTSCEEEEEEECTTCEEEEEEEBCCTTCSSBSSEEEEEEEE--------ETTEEEEEEEEECSSCEEEE
+T ss_pred             cccccceEEEcCCCCEEEEEEeCCCCcEEEEEEcCCCCCCCCCCeeeeeEEe--------cCcEEEEEEEeeCCCcccce
+Confidence            46899999999999999999 5888999999999 9876432  78888886        27899999999974456889
+
+
+Q 3RY2_1|Chains    77 ATTWSGQYVGG-AEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVK  122 (127)
+Q Consensus        77 ~TsWsGQ~~~~-~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~  122 (127)
+                      +|+|+|||+.+ ++|+|+|+|+|+.....  .|+++++|+|+|+|++
+T Consensus        77 ~Tsw~Gqc~~~~~~e~i~T~WlL~~~~~~--~W~at~~G~D~Ftr~~  121 (122)
+T 3T2X_B           77 ITSWSGFYINTGGQGKISTLWQLVVNGSS--SPSQILKGQDVFSQTS  121 (122)
+T ss_dssp             EEEEEEEEEEETTEEEEEEEEEEEETTCC--SGGGSEEEEEEEEEEC
+T ss_pred             eeEEEEEEEecCCCCEEEEEEEEEEecCC--CcceEEEeeceeEecC
+Confidence            99999999864 56899999999998753  9999999999999976
+
+
+No 34
+>2Y32_C BLR5658 PROTEIN; BIOTIN-BINDING PROTEIN; 1.78A {BRADYRHIZOBIUM JAPONICUM}
+Probab=99.95  E-value=1.4e-32  Score=203.46  Aligned_cols=112  Identities=34%  Similarity=0.555  Sum_probs=98.8  Template_Neff=6.200
+
+Q 3RY2_1|Chains     3 AGITGTWYNQLGSTFIVTA--GADGALTGTYESAVGNAES---RYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSA   77 (127)
+Q Consensus         3 c~l~G~W~NeLGS~m~i~~--~~~G~l~G~Y~taV~~a~~---~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~   77 (127)
+                      ++|.|.|+|||||+|+|..  +++|.|+|+|+|+|+....   ++++.|++..    +..+++|+|+|.|++    ++|+
+T Consensus         1 ~~l~G~W~NelGS~m~I~~~~~~~G~isG~Y~Tav~~~~~~g~~~~l~G~~~~----~~~g~t~gFtV~W~n----~~S~   72 (138)
+T 2Y32_C            1 QSVNWTWTNQYGSTLAITSFNSNTGAITGTYTNNAANSCDEGKPQGVTGWLAY----GNTGTAISFSVNFLG----CGST   72 (138)
+T ss_dssp             CBCCCEEECTTSCEEEEEEECTTTCEEEEEEECCCTTCTTTTCCEEEEEEEEE----CSSCEEEEEEEEETT----TTEE
+T ss_pred             CCcceEEEcCCCCEEEEEEEcCCCCeEEEEEEcCCcCCCCCCcccceEEEEec----CCCCCeEEEEEEecC----CCce
+Confidence            3689999999999999998  6889999999999988554   6889998753    256899999999997    7899
+
+
+Q 3RY2_1|Chains    78 TTWSGQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAA  126 (127)
+Q Consensus        78 TsWsGQ~~~~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~p~~~  126 (127)
+                      |+|+|||+.+..  |+|+|+|+..  +.+.|+++++|+|+|+|++|+++
+T Consensus        73 Tsw~GQc~~~~~--l~T~WlL~~~--~~d~W~at~~G~D~FtR~~~~~~  117 (138)
+T 2Y32_C           73 TVWTGQLNNATG--FQGLWYLSLA--EAVAWNGISAGADTFTFSSGDKA  117 (138)
+T ss_dssp             EEEEEEBCTTSC--EEEEEEEEES--SSCCTTSEEEEEEEEEEEESCCT
+T ss_pred             eeEEEEEEcCCC--eEEEEEEEec--cccccccEEeecceeEEcCCCHH
+Confidence            999999996543  9999999987  67899999999999999998865
+
+
+No 35
+>3EW1_D rhizavidin; high affinity, rhizavidin, biotin, avidin; 1.5A {Rhizobium etli}
+Probab=99.95  E-value=1.4e-32  Score=202.60  Aligned_cols=113  Identities=33%  Similarity=0.536  Sum_probs=98.7  Template_Neff=6.400
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAE---SRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSAT   78 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~---~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~T   78 (127)
+                      -|++.|.|+|||||+|.|.++++|.|+|+|+|+|+..+   .++++.|++        .+++|+|+|.|++..++++|+|
+T Consensus        12 ~~~l~G~W~NelGS~m~I~~~~~G~i~G~Y~tav~~~g~~~~~~~l~G~~--------~g~~~gFtV~w~n~~~~~~S~t   83 (135)
+T 3EW1_D           12 IASASSSWQNQSGSTMIIQVDSFGNVSGQYVNRAQGTGCQNSPYPLTGRV--------NGTFIAFSVGWNNSTENCNSAT   83 (135)
+T ss_dssp             HSSEEEEEEETTSCEEEEEECTTSEEEEEEECCCTTCSSCSSEEEEEEEE--------ETTEEEEEEEEECSSBEEEEEE
+T ss_pred             ccccceEEEcCCCCEEEEEECCCCcEEEEEECCCCCCCCCCceeEeEEEe--------CCCeEEEEEEccCCCCccCcce
+Confidence            48999999999999999999999999999999987654   357888875        3789999999997445688999
+
+
+Q 3RY2_1|Chains    79 TWSGQYVGG-AEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSA  125 (127)
+Q Consensus        79 sWsGQ~~~~-~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~p~~  125 (127)
+                      +|+|||+.+ ++++|+|+|+|+...   +.|+++++|+|+|+|+++..
+T Consensus        84 sw~GQc~~~~~~e~i~T~WlL~~~~---~~w~a~~~G~D~Ftr~~~~~  128 (135)
+T 3EW1_D           84 GWTGYAQVNGNNTEIVTSWNLAYEG---GSGPAIEQGQDTFQYVPTTE  128 (135)
+T ss_dssp             EEEEEEEEETTEEEEEEEEEEEEEC---SSSEEEEEEEEEEEEECCEE
+T ss_pred             EEEEEEEEcCCCcEEEEEEEEEeec---CCCccEEEcccceEecCCCC
+Confidence            999999864 568999999999986   46999999999999999764
+
+
+No 36
+>3EW1_F rhizavidin; high affinity, rhizavidin, biotin, avidin; 1.5A {Rhizobium etli}
+Probab=99.95  E-value=1.4e-32  Score=202.60  Aligned_cols=113  Identities=33%  Similarity=0.536  Sum_probs=98.7  Template_Neff=6.400
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAE---SRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSAT   78 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~---~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~T   78 (127)
+                      -|++.|.|+|||||+|.|.++++|.|+|+|+|+|+..+   .++++.|++        .+++|+|+|.|++..++++|+|
+T Consensus        12 ~~~l~G~W~NelGS~m~I~~~~~G~i~G~Y~tav~~~g~~~~~~~l~G~~--------~g~~~gFtV~w~n~~~~~~S~t   83 (135)
+T 3EW1_F           12 IASASSSWQNQSGSTMIIQVDSFGNVSGQYVNRAQGTGCQNSPYPLTGRV--------NGTFIAFSVGWNNSTENCNSAT   83 (135)
+T ss_dssp             GTTEEEEEECTTSCEEEEEECTTSEEEEEEECCCTTCSSCSSEEEEEEEE--------ETTEEEEEEEEECSSEEEEEEE
+T ss_pred             ccccceEEEcCCCCEEEEEECCCCcEEEEEECCCCCCCCCCceeEeEEEe--------CCCeEEEEEEccCCCCccCcce
+Confidence            48999999999999999999999999999999987654   357888875        3789999999997445688999
+
+
+Q 3RY2_1|Chains    79 TWSGQYVGG-AEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSA  125 (127)
+Q Consensus        79 sWsGQ~~~~-~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~p~~  125 (127)
+                      +|+|||+.+ ++++|+|+|+|+...   +.|+++++|+|+|+|+++..
+T Consensus        84 sw~GQc~~~~~~e~i~T~WlL~~~~---~~w~a~~~G~D~Ftr~~~~~  128 (135)
+T 3EW1_F           84 GWTGYAQVNGNNTEIVTSWNLAYEG---GSGPAIEQGQDTFQYVPTTE  128 (135)
+T ss_dssp             EEEEEEEEETTEEEEEEEEEEEEEC---SSSEEEEEEEEEEEEECCBC
+T ss_pred             EEEEEEEEcCCCcEEEEEEEEEeec---CCCccEEEcccceEecCCCC
+Confidence            999999864 568999999999986   46999999999999999764
+
+
+No 37
+>3SZH_C Avidin/streptavidin; high affinity systems, avidin, streptavidin; 1.07A {Shewanella denitrificans}
+Probab=99.95  E-value=1.6e-32  Score=198.93  Aligned_cols=112  Identities=31%  Similarity=0.569  Sum_probs=94.6  Template_Neff=6.800
+
+Q 3RY2_1|Chains     1 AEAGITGTWYNQLGSTFIVT-AGADGALTGTYESAVGNA-E--SRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHS   76 (127)
+Q Consensus         1 ~~c~l~G~W~NeLGS~m~i~-~~~~G~l~G~Y~taV~~a-~--~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S   76 (127)
+                      +.|++.|.|+|||||+|.|. .+++|.|+|+|+|+|... +  .++++.|++        .+++|+|+|.|++...+++|
+T Consensus         5 ~~~~~~G~W~Ne~GS~m~I~~~~~~g~i~G~Y~tav~~~~~~~~~~~l~G~~--------~~~~~~F~V~w~n~~~~~~S   76 (122)
+T 3SZH_C            5 QELTAMSAWVNQDGSTLYINSINAQGELTGSYINRAAGFACQNSPYPVNGWV--------FGTAISFSTKWLNSVESCNS   76 (122)
+T ss_dssp             CCSCTTEEEEETTSCEEEEEEECTTCEEEEEEEBCCC-CCSBSSCEEEEEEE--------ETTEEEEEEEEECSSCEEEE
+T ss_pred             ccccccEEEEcCCCCEEEEEEeCCCCcEEEEEEcCCCCCCCCCCeEEeEEEe--------CCCeEEEEEEeeCCCcccce
+Confidence            36899999999999999999 578899999999998433 2  268888886        27899999999974446889
+
+
+Q 3RY2_1|Chains    77 ATTWSGQYVGG-AEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVK  122 (127)
+Q Consensus        77 ~TsWsGQ~~~~-~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~  122 (127)
+                      +|+|+|||+.+ ++|+|+|+|+|+.....  .|+++++|+|+|+|++
+T Consensus        77 ~Tsw~Gqc~~~~~~e~l~T~WlL~~~~~~--~W~st~~G~D~Ftr~~  121 (122)
+T 3SZH_C           77 ITSWSGFYINTGGQGKISTLWQLVVNGSS--SPSQILKGQDVFSQTS  121 (122)
+T ss_dssp             EEEEEEEEEECC-CEEEEEEEEEEETTCC--SGGGSEEEEEEEEEC-
+T ss_pred             eeEEEEEEEecCCCCEEEEEEEEEEecCC--CcceEEEeeceeEecC
+Confidence            99999999864 56899999999998753  9999999999999976
+
+
+No 38
+>3SZI_L Avidin/streptavidin; High affinity systems, avidin, streptavidin; HET: FMT; 1.4A {Shewanella denitrificans}
+Probab=99.95  E-value=1.6e-32  Score=198.93  Aligned_cols=112  Identities=31%  Similarity=0.569  Sum_probs=96.1  Template_Neff=6.800
+
+Q 3RY2_1|Chains     1 AEAGITGTWYNQLGSTFIVT-AGADGALTGTYESAVGNA-E--SRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHS   76 (127)
+Q Consensus         1 ~~c~l~G~W~NeLGS~m~i~-~~~~G~l~G~Y~taV~~a-~--~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S   76 (127)
+                      +.|++.|.|+|||||+|.|. .+++|.|+|+|+|+|... +  .++++.|++        .+++|+|+|.|++...+++|
+T Consensus         5 ~~~~~~G~W~Ne~GS~m~I~~~~~~g~i~G~Y~tav~~~~~~~~~~~l~G~~--------~~~~~~F~V~w~n~~~~~~S   76 (122)
+T 3SZI_L            5 QELTAMSAWVNQDGSTLYINSINAQGELTGSYINRAAGFACQNSPYPVNGWV--------FGTAISFSTKWLNSVESCNS   76 (122)
+T ss_dssp             CCSCTTCEEEETTSCEEEEEEECTTCEEEEEEEBCCTTSSSBSSCEEEEEEE--------ETTEEEEEEEEECSSCEEEE
+T ss_pred             ccccccEEEEcCCCCEEEEEEeCCCCcEEEEEEcCCCCCCCCCCeEEeEEEe--------CCCeEEEEEEeeCCCcccce
+Confidence            36899999999999999999 578899999999998433 2  268888886        27899999999974446889
+
+
+Q 3RY2_1|Chains    77 ATTWSGQYVGG-AEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVK  122 (127)
+Q Consensus        77 ~TsWsGQ~~~~-~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~  122 (127)
+                      +|+|+|||+.+ ++|+|+|+|+|+.....  .|+++++|+|+|+|++
+T Consensus        77 ~Tsw~Gqc~~~~~~e~l~T~WlL~~~~~~--~W~st~~G~D~Ftr~~  121 (122)
+T 3SZI_L           77 ITSWSGFYINTGGQGKISTLWQLVVNGSS--SPSQILKGQDVFSQTS  121 (122)
+T ss_dssp             EEEEEEEEEEETTEEEEEEEEEEEETTCC--SGGGSEEEEEEEEEEC
+T ss_pred             eeEEEEEEEecCCCCEEEEEEEEEEecCC--CcceEEEeeceeEecC
+Confidence            99999999864 56899999999998753  9999999999999976
+
+
+No 39
+>4GGR_A Bradavidin 2; bradavidin, avidin, oligomeric state, streptavidin; 1.9A {Bradyrhizobium japonicum}
+Probab=99.95  E-value=1.6e-32  Score=197.78  Aligned_cols=103  Identities=27%  Similarity=0.469  Sum_probs=90.2  Template_Neff=6.100
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAE---SRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSAT   78 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~---~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~T   78 (127)
+                      .|++.|.|+|||||+|.|...++|.|+|+|+++|+...   .++++.|+.        .+++|+|+|.|++    ++|+|
+T Consensus         9 ~~~l~G~W~NelGS~m~I~~~~~G~i~G~Y~tav~~~~~~~~~~pl~G~~--------~~~~~gFtV~w~~----~~S~t   76 (115)
+T 4GGR_A            9 GLPAPSYWKNERGSELLIWSANSGTIQGTFTNHAQGFACQGIPYPAAGSV--------SPTGLYFVVTFAQ----CNSFT   76 (115)
+T ss_dssp             -CCSSEEEECTTCCEEEEEECTTSEEEEEEEBCCTTCSSBTCEEEEEEEE--------ETTEEEEEEEETT----TTEEE
+T ss_pred             cCCCcEEEEeCCCCEEEEEECCCCeEEEEEEcCCCCCCCCCcceeeEEEe--------cCCEEEEEEEEcC----CCceE
+Confidence            49999999999999999999999999999999994332   268888885        3568999999986    88999
+
+
+Q 3RY2_1|Chains    79 TWSGQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKV  121 (127)
+Q Consensus        79 sWsGQ~~~~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~  121 (127)
+                      +|+|||+.+   +|+|+|+|+. . ..+.|+++++|+|+|+|+
+T Consensus        77 sw~Gqc~~~---~l~T~WlL~~-~-~~~~W~at~~G~D~FtR~  114 (115)
+T 4GGR_A           77 RWVGTIKGS---QMPTSWTLFY-V-DNKGKPSRLKGGDIFTRV  114 (115)
+T ss_dssp             EEEECCBTT---EEEEEEEEEE-E-CTTSCEEEEEEEEEEEEE
+T ss_pred             EEEEEEeCC---eeeeEEEEEE-c-CCCCCccEEEecceeEEc
+Confidence            999999953   7999999999 4 478999999999999995
+
+
+No 40
+>4GGT_A Bradavidin 2; bradavidin, avidin, oligomeric state, streptavidin; 1.693A {Bradyrhizobium japonicum}
+Probab=99.95  E-value=1.6e-32  Score=197.78  Aligned_cols=103  Identities=27%  Similarity=0.469  Sum_probs=89.7  Template_Neff=6.100
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAE---SRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSAT   78 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~---~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~T   78 (127)
+                      .|++.|.|+|||||+|.|...++|.|+|+|+++|+...   .++++.|+.        .+++|+|+|.|++    ++|+|
+T Consensus         9 ~~~l~G~W~NelGS~m~I~~~~~G~i~G~Y~tav~~~~~~~~~~pl~G~~--------~~~~~gFtV~w~~----~~S~t   76 (115)
+T 4GGT_A            9 GLPAPSYWKNERGSELLIWSANSGTIQGTFTNHAQGFACQGIPYPAAGSV--------SPTGLYFVVTFAQ----CNSFT   76 (115)
+T ss_dssp             -CCSSEEEECTTCCEEEEEECGGGEEEEEEECCCTTCTTTTCEEEEEEEE--------ETTEEEEEEEEGG----GTEEE
+T ss_pred             cCCCcEEEEeCCCCEEEEEECCCCeEEEEEEcCCCCCCCCCcceeeEEEe--------cCCEEEEEEEEcC----CCceE
+Confidence            49999999999999999999999999999999994332   268888885        3568999999986    88999
+
+
+Q 3RY2_1|Chains    79 TWSGQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKV  121 (127)
+Q Consensus        79 sWsGQ~~~~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~  121 (127)
+                      +|+|||+.+   +|+|+|+|+. . ..+.|+++++|+|+|+|+
+T Consensus        77 sw~Gqc~~~---~l~T~WlL~~-~-~~~~W~at~~G~D~FtR~  114 (115)
+T 4GGT_A           77 RWVGTIKGS---QMPTSWTLFY-V-DNKGKPSRLKGGDIFTRV  114 (115)
+T ss_dssp             EEEECCBTT---EEEEEEEEEE-C--CCSCCEEEEEEEEEEEC
+T ss_pred             EEEEEEeCC---eeeeEEEEEE-c-CCCCCccEEEecceeEEc
+Confidence            999999953   7999999999 4 478999999999999995
+
+
+No 41
+>4GGZ_A Bradavidin 2; bradavidin, avidin, oligomeric state, streptavidin; HET: BTN; 1.75A {Bradyrhizobium japonicum}
+Probab=99.95  E-value=1.6e-32  Score=197.78  Aligned_cols=103  Identities=27%  Similarity=0.469  Sum_probs=90.2  Template_Neff=6.100
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAE---SRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSAT   78 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~---~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~T   78 (127)
+                      .|++.|.|+|||||+|.|...++|.|+|+|+++|+...   .++++.|+.        .+++|+|+|.|++    ++|+|
+T Consensus         9 ~~~l~G~W~NelGS~m~I~~~~~G~i~G~Y~tav~~~~~~~~~~pl~G~~--------~~~~~gFtV~w~~----~~S~t   76 (115)
+T 4GGZ_A            9 GLPAPSYWKNERGSELLIWSANSGTIQGTFTNHAQGFACQGIPYPAAGSV--------SPTGLYFVVTFAQ----CNSFT   76 (115)
+T ss_dssp             -CCSSEEEEETTSCEEEEEECGGGEEEEEEEBCCTTCSSBTCEEEEEEEE--------ETTEEEEEEEEGG----GTEEE
+T ss_pred             cCCCcEEEEeCCCCEEEEEECCCCeEEEEEEcCCCCCCCCCcceeeEEEe--------cCCEEEEEEEEcC----CCceE
+Confidence            49999999999999999999999999999999994332   268888885        3568999999986    88999
+
+
+Q 3RY2_1|Chains    79 TWSGQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKV  121 (127)
+Q Consensus        79 sWsGQ~~~~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~  121 (127)
+                      +|+|||+.+   +|+|+|+|+. . ..+.|+++++|+|+|+|+
+T Consensus        77 sw~Gqc~~~---~l~T~WlL~~-~-~~~~W~at~~G~D~FtR~  114 (115)
+T 4GGZ_A           77 RWVGTIKGS---QMPTSWTLFY-V-DNKGKPSRLKGGDIFTRV  114 (115)
+T ss_dssp             EEEECCBTT---EEEEEEEEEE-E-CTTSCEEEEEEEEEEEEC
+T ss_pred             EEEEEEeCC---eeeeEEEEEE-c-CCCCCccEEEecceeEEc
+Confidence            999999953   7999999999 4 478999999999999995
+
+
+No 42
+>4BBO_B BLR5658 PROTEIN; BIOTIN-BINDING PROTEIN, AVIDINS; HET: BTN, ACT; 1.6A {BRADYRHIZOBIUM JAPONICUM}
+Probab=99.94  E-value=1.8e-32  Score=197.57  Aligned_cols=112  Identities=34%  Similarity=0.555  Sum_probs=95.6  Template_Neff=6.800
+
+Q 3RY2_1|Chains     3 AGITGTWYNQLGSTFIVTA--GADGALTGTYESAVGNAES---RYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSA   77 (127)
+Q Consensus         3 c~l~G~W~NeLGS~m~i~~--~~~G~l~G~Y~taV~~a~~---~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~   77 (127)
+                      +++.|.|+|||||+|.|..  +++|.|+|+|+|+|+....   ++++.|++..    +..+++|+|+|.|++    ++|+
+T Consensus         1 ~~l~G~W~Ne~GS~m~i~~~~~~~G~i~G~Y~tav~~~~~~~~~~~l~G~~~~----~~~~~~~~F~V~w~~----~~S~   72 (118)
+T 4BBO_B            1 QSVNWTWTNQYGSTLAITSFNSNTGAITGTYTNNAANSCDEGKPQGVTGWLAY----GNTGTAISFSVNFLG----CGST   72 (118)
+T ss_dssp             CEEEEEEECTTCCEEEEEEECTTTCEEEEEEECCCSSSSSTTCCEEEEEEEEE----CSSCEEEEEEEEETT----TTEE
+T ss_pred             CCcceEEEeCCCCEEEEEEecCCCCeEEEEEEcCccCCCCCCcccceEEEEec----CCCCCeEEEEEEecC----CCce
+Confidence            3689999999999999998  6889999999999988544   6889998753    256899999999997    7899
+
+
+Q 3RY2_1|Chains    78 TTWSGQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAA  126 (127)
+Q Consensus        78 TsWsGQ~~~~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~p~~~  126 (127)
+                      |+|+|||+.+..  |+|+|+|+.+  +.+.|+++++|+|+|+|++++.|
+T Consensus        73 Tsw~Gqc~~~~~--l~T~Wll~~~--~~~~W~at~~G~D~Ftr~~~~~~  117 (118)
+T 4BBO_B           73 TVWTGQLNNATG--FQGLWYLSLA--EAVAWNGISAGADTFTFSSGDKA  117 (118)
+T ss_dssp             EEEEEEBCTTSC--EEEEEEEEES--SSCCTTCEEEEEEEEEEEC----
+T ss_pred             eeEEEEEEcCCC--eEEEEEEEec--ccccCceEEeeccccEEccCccc
+Confidence            999999996543  9999999988  67899999999999999998765
+
+
+No 43
+>4BBO_C BLR5658 PROTEIN; BIOTIN-BINDING PROTEIN, AVIDINS; HET: ACT, BTN; 1.6A {BRADYRHIZOBIUM JAPONICUM}
+Probab=99.94  E-value=1.8e-32  Score=197.57  Aligned_cols=112  Identities=34%  Similarity=0.555  Sum_probs=94.7  Template_Neff=6.800
+
+Q 3RY2_1|Chains     3 AGITGTWYNQLGSTFIVTA--GADGALTGTYESAVGNAES---RYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSA   77 (127)
+Q Consensus         3 c~l~G~W~NeLGS~m~i~~--~~~G~l~G~Y~taV~~a~~---~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~   77 (127)
+                      +++.|.|+|||||+|.|..  +++|.|+|+|+|+|+....   ++++.|++..    +..+++|+|+|.|++    ++|+
+T Consensus         1 ~~l~G~W~Ne~GS~m~i~~~~~~~G~i~G~Y~tav~~~~~~~~~~~l~G~~~~----~~~~~~~~F~V~w~~----~~S~   72 (118)
+T 4BBO_C            1 QSVNWTWTNQYGSTLAITSFNSNTGAITGTYTNNAANSCDEGKPQGVTGWLAY----GNTGTAISFSVNFLG----CGST   72 (118)
+T ss_dssp             CEEEEEEECTTCCEEEEEEECTTTCEEEEEEECCCTTCSSTTCEEEEEEEEEE----CSSCEEEEEEEEETT----TTEE
+T ss_pred             CCcceEEEeCCCCEEEEEEecCCCCeEEEEEEcCccCCCCCCcccceEEEEec----CCCCCeEEEEEEecC----CCce
+Confidence            3689999999999999998  6889999999999988544   6889998753    256899999999997    7899
+
+
+Q 3RY2_1|Chains    78 TTWSGQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAA  126 (127)
+Q Consensus        78 TsWsGQ~~~~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~p~~~  126 (127)
+                      |+|+|||+.+..  |+|+|+|+.+  +.+.|+++++|+|+|+|++++.|
+T Consensus        73 Tsw~Gqc~~~~~--l~T~Wll~~~--~~~~W~at~~G~D~Ftr~~~~~~  117 (118)
+T 4BBO_C           73 TVWTGQLNNATG--FQGLWYLSLA--EAVAWNGISAGADTFTFSSGDKA  117 (118)
+T ss_dssp             EEEEEEBCTTSC--EEEEEEEEES--SSCCTTCEEEEEEEEEEC-----
+T ss_pred             eeEEEEEEcCCC--eEEEEEEEec--ccccCceEEeeccccEEccCccc
+Confidence            999999996543  9999999988  67899999999999999998765
+
+
+No 44
+>6HDT_B Short afifavidin; avidin, biotin, high affinity systems; HET: BTN; 1.54A {Afifella pfennigii}
+Probab=99.94  E-value=2.6e-32  Score=200.77  Aligned_cols=112  Identities=32%  Similarity=0.540  Sum_probs=94.9  Template_Neff=6.400
+
+Q 3RY2_1|Chains     3 AGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNA---ESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATT   79 (127)
+Q Consensus         3 c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a---~~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~Ts   79 (127)
+                      |++.|+|+|||||+|.|..+++|.|+|+|+|+|+..   +.++++.|++        .+++|+|+|.|++...+++|+|+
+T Consensus        17 ~~l~G~W~Ne~GS~m~I~~~~~G~i~G~Y~tav~~~~~~~~~~~l~G~~--------~g~~~gFtV~w~n~~~~~~S~Ts   88 (133)
+T 6HDT_B           17 PAVSSSWVNQDGSTMTLVFGAGNSVSGFYVNNAPGFGCQGTPYPLVGLT--------WGNFIGFTVAWDNATANCNSVTS   88 (133)
+T ss_dssp             SSSEEEEEETTSCEEEEEECSTTEEEEEEEBCCTTCSSBSSCEEEEEEE--------ETTEEEEEEEEECSSCEEEEEEE
+T ss_pred             CCcceEEEcCCCCEEEEEECCCCeEEEEEEcCCCCCCCCCCeeEeEEEc--------CCCeEEEEEEecCCcCcCceeeE
+Confidence            689999999999999999988899999999999643   3468888885        36899999999974456899999
+
+
+Q 3RY2_1|Chains    80 WSGQYVG-GAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSA  125 (127)
+Q Consensus        80 WsGQ~~~-~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~p~~  125 (127)
+                      |+|||+. +++++|+|+|+|++..   +.|+++++|+|+|+|++++.
+T Consensus        89 w~Gqc~~~~~~e~i~T~WlL~~~~---~~w~s~~~G~D~Ftr~~~~~  132 (133)
+T 6HDT_B           89 WTGFAEAAGSDVTIVTDWNLAYQG---SSSGEIQQGSDTFTLVNKAM  132 (133)
+T ss_dssp             EEEEEEEETTEEEEEEEEEEEEEC---SSSEEEEEEEEEEEEC----
+T ss_pred             EEEEEEecCCCcEEEEEEEEEeeC---CCcccEEeccceeEeccccC
+Confidence            9999985 4678999999999986   46999999999999998764
+
+
+No 45
+>6HDV_C Afifavidin; avidin-biotin system, bacterial avidins, self; 2.16A {Afifella pfennigii}
+Probab=99.94  E-value=6.6e-32  Score=199.73  Aligned_cols=113  Identities=32%  Similarity=0.534  Sum_probs=98.0  Template_Neff=6.400
+
+Q 3RY2_1|Chains     3 AGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNA---ESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATT   79 (127)
+Q Consensus         3 c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a---~~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~Ts   79 (127)
+                      |++.|+|+|||||+|.|..+++|.|+|+|+|+|+..   ...+++.|++        .+++|+|+|.|++...+++|+|+
+T Consensus        17 ~~l~G~W~NelGS~m~I~~~~~g~i~G~Y~tav~~~~~~~~~~~l~G~~--------~g~~~gFtV~W~~~~~~~~S~Ts   88 (138)
+T 6HDV_C           17 PAVSSSWVNQDGSTMTLVFGAGNSVSGFYVNNAPGFGCQGTPYPLVGLT--------WGNFIGFTVAWDNATANCNSVTS   88 (138)
+T ss_dssp             SSSEEEEEETTSCEEEEEECSTTEEEEEEECCCTTCSSCSSEEEEEEEE--------ETTEEEEEEEEESSSCEEEEEEE
+T ss_pred             CCcceEEEcCCCCEEEEEECCCCeEEEEEEcCCCCCCCCCCeeEeEEEc--------CCCEEEEEEEecCCCCcCceeeE
+Confidence            689999999999999999988899999999999743   3468888875        37899999999964456899999
+
+
+Q 3RY2_1|Chains    80 WSGQYVG-GAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAA  126 (127)
+Q Consensus        80 WsGQ~~~-~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~p~~~  126 (127)
+                      |+|||+. +++++|+|+|+|+...   +.|+++++|+|+|+|+++.+.
+T Consensus        89 w~Gqc~~~~~~e~i~T~WlL~~~~---~~w~s~~~G~D~Ftr~~~~~~  133 (138)
+T 6HDV_C           89 WTGFAEAAGSDVTIVTDWNLAYQG---SSSGEIQQGSDTFTLVNKAMK  133 (138)
+T ss_dssp             EEEEEEECSSSEEEEEEEEEEEEC---SSSEEEEEEEEEEEEECCCCC
+T ss_pred             EEEEEEecCCCcEEEEEEEEEeeC---CCCccEEEccceeEecCCCCC
+Confidence            9999985 4678999999999986   469999999999999997754
+
+
+No 46
+>6S4Q_A Streptavidin; Biotin-Binding Protein, Artificial Transfer Hydrogenase; HET: 4IR, GOL; 1.85A {Streptomyces avidinii}
+Probab=99.94  E-value=1.2e-31  Score=223.38  Aligned_cols=125  Identities=96%  Similarity=1.431  Sum_probs=109.4  Template_Neff=5.800
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS   81 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~TsWs   81 (127)
+                      +|+|.|.|+|||||+|+|...++|.|+|+|+++|+.+..++++.|+++..+..+..+++|+|+|.|++.+.+++|+|+|+
+T Consensus       198 ~~~lsG~W~NelGS~m~I~~~~~G~isG~Y~Tavg~~~~~~~ltG~~~~~~~~~~~g~t~gFtV~w~n~~~~~~S~Tsw~  277 (343)
+T 6S4Q_A          198 QAGITGTWYNQLGSTFIVTAGADGALTGTYVTARGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS  277 (343)
+T ss_dssp             HHHHSEEEEETTSCEEEEEECTTSEEEEEEECSSSSCCSCEEEEEEECSSCCSSSCCEEEEEEEEEECSSCEEEEEEEEE
+T ss_pred             cCccceEEEcCCCCEEEEEeCCCCcEEEEEEcCCCCCCCeEEeeeeecCCCCCCCCCceEEEEEEccCCcCcCCceeEEE
+Confidence            68999999999999999999889999999999999877789999998765444567999999999997676799999999
+
+
+Q 3RY2_1|Chains    82 GQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAA  126 (127)
+Q Consensus        82 GQ~~~~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~p~~~  126 (127)
+                      |||+.+++++|+|+|+|++...+.+.|+++++|+|+|+|++++++
+T Consensus       278 Gqc~~~g~e~L~T~WlL~~~~~~~d~W~st~vG~D~FtR~~~~~~  322 (343)
+T 6S4Q_A          278 GQYVGGAEARINTQWLLTSGTTEANAWKSTLVGCDTFTKVKPSAA  322 (343)
+T ss_dssp             EEEECSTTCEEEEEEEEEECCCGGGGGGCEEEEEEEEECC-----
+T ss_pred             EEeeCCchheEEEEEEEEecCCcccccceEEEcceeeEEcCCChh
+Confidence            999977789999999999998778999999999999999998765
+
+
+No 47
+>6S50_B Streptavidin; Biotin-Binding Protein, Artificial Transfer Hydrogenase; HET: 4IR, GOL; 2.0A {Streptomyces avidinii}
+Probab=99.94  E-value=1.2e-31  Score=223.31  Aligned_cols=125  Identities=93%  Similarity=1.396  Sum_probs=109.1  Template_Neff=5.900
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS   81 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~TsWs   81 (127)
+                      +|+|.|.|+|||||+|.|...++|.|+|+|+++|+.+...+++.|+++..++.+..+++|+|+|.|++...+++|+|+|+
+T Consensus       198 ~c~L~G~W~NelGS~m~I~~~~dG~isG~Y~Tavg~~~~~~~l~G~~d~~~~~~~~g~t~gFtV~w~n~~~~~~SvTsws  277 (343)
+T 6S50_B          198 QAGITGTWYAQLGDTFIVTAGADGALTGTYVTARGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS  277 (343)
+T ss_dssp             CTTTSEEEEETTSCEEEEEECTTSEEEEEEECSSSSCCSEEEEEEEECSSCCSSSCCEEEEEEEEEECSSCEEEEEEEEE
+T ss_pred             ccccccEEEcCCCCEEEEEECCCCcEEEEEEcCCCCCCceEEEEEEecCCCCcCCCCCeEEEEEEccCCcCcCceeeEEE
+Confidence            69999999999999999999989999999999998877789999998765443456899999999986444588999999
+
+
+Q 3RY2_1|Chains    82 GQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAA  126 (127)
+Q Consensus        82 GQ~~~~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~p~~~  126 (127)
+                      |||+.+++++|+|+|||++...+.+.|+++++|+|+|+|++|+++
+T Consensus       278 GQ~~~~g~e~L~T~WLL~~~~~~~d~W~at~~G~D~FtR~~~~~~  322 (343)
+T 6S50_B          278 GQYVGGAEARINTQWLLTRGTTEANAWKSTLVGCATFTKVKPSAA  322 (343)
+T ss_dssp             EEEECSTTCEEEEEEEEEECCCGGGGGGCEEEEEEEEESCC----
+T ss_pred             EeeecCccceEEEEEEEEecCCchhhcceEEEeceeeEEcCCChh
+Confidence            999977789999999999998667999999999999999998865
+
+
+No 48
+>6S50_A Streptavidin; Biotin-Binding Protein, Artificial Transfer Hydrogenase; HET: 4IR, GOL; 2.0A {Streptomyces avidinii}
+Probab=99.94  E-value=1.3e-31  Score=223.09  Aligned_cols=125  Identities=93%  Similarity=1.396  Sum_probs=112.0  Template_Neff=5.900
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS   81 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~~a~~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~TsWs   81 (127)
+                      +|+|.|.|+|||||+|.|...++|.|+|+|+++|+.+...+++.|+++..++.+..+++|+|+|.|++...+++|+|+|+
+T Consensus       198 ~c~lsG~W~NelGS~m~I~~~~dG~~sG~Y~Tavg~~~~~~~l~G~~d~~~~~~~~g~t~gFtV~w~n~~~~~~SvTsws  277 (343)
+T 6S50_A          198 QAGITGTWYAQLGDTFIVTAGADGALTGTYVTARGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWS  277 (343)
+T ss_pred             CCCCccEEEeCCCCEEEEEECCCCcEEEEEEcCCCCCCCccceEEEecCCCCCCCCCCeEEEEEecCcCCCccceeeEEE
+Confidence            69999999999999999999989999999999998877789999998765543456899999999986444588999999
+
+
+Q 3RY2_1|Chains    82 GQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAA  126 (127)
+Q Consensus        82 GQ~~~~~~~~i~T~WlL~~~~~~~d~W~sT~vG~D~FtR~~p~~~  126 (127)
+                      |||+.+++++|+|+|||++...+.+.|+++++|+|+|+|++|+++
+T Consensus       278 GQ~~~~g~e~L~T~WlL~~~~~~~d~W~at~~G~D~FtR~~~~~~  322 (343)
+T 6S50_A          278 GQYVGGAEARINTQWLLTRGTTEANAWKSTLVGCATFTKVKPSAA  322 (343)
+T ss_pred             EeeEeCCceEEEEEEEEEeeCCChhccccEEEecceeEEcCCCHH
+Confidence            999977789999999999998667999999999999999998865
+
+
+No 49
+>2C4I_A AVIDIN; BIOTIN, GLYCOPROTEIN, SIGNALOR; HET: BTN; 1.95A {GALLUS GALLUS}
+Probab=99.87  E-value=1.2e-26  Score=188.28  Aligned_cols=105  Identities=30%  Similarity=0.566  Sum_probs=85.9  Template_Neff=6.200
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVT-AGADGALTGTYESAVGNAES---RYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSA   77 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~-~~~~G~l~G~Y~taV~~a~~---~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~   77 (127)
+                      .|+++|.|+|||||+|.|. .+++|.|+|+|+|+|+....   ++++.|++..              |.|+     ++|+
+T Consensus        79 ~c~lsG~W~NelGS~M~I~~~~~~G~i~G~Y~TaV~~~~~~~~~~pl~G~~~~--------------v~~~-----~~S~  139 (271)
+T 2C4I_A           79 KCSLTGKWTNDLGSNMTIGAVNSRGEFTGTYITAVTATSNEIKESPLHGTQNT--------------INKS-----GGST  139 (271)
+T ss_dssp             CCCCCEEEEETTSCEEEECCCCTTSEEEEEEECSCCSSSSCCCCEEEEEEECC--------------C---------CCE
+T ss_pred             ccccccEEEcCCCCeEEEEEeCCCCcEEEEEEccccCCCCceeeecceeeeec--------------cccc-----cCce
+Confidence            6999999999999999999 67889999999999988765   4777777421              3453     6899
+
+
+Q 3RY2_1|Chains    78 TTWSGQYVG--GAEARINTQWLLTSGT-TEANAWKSTLVGHDTFTKVKPSA  125 (127)
+Q Consensus        78 TsWsGQ~~~--~~~~~i~T~WlL~~~~-~~~d~W~sT~vG~D~FtR~~p~~  125 (127)
+                      |+|+|||+.  +++|+|+|+|||++.. .+++.|+++++|+|+|+|++|..
+T Consensus       140 TswtGQc~~~~dg~e~L~T~WlL~~~~~~~~~~W~at~~G~D~FtR~~~~~  190 (271)
+T 2C4I_A          140 TVFTGQCFIDRNGKEVLKTMWLLRSSVNDIGDDWKATRVGINIFTRLRTQK  190 (271)
+T ss_dssp             EEEEEEEEECTTSCEEEEEEEEEECCCSSGGGGGGSEEEEEEEEEEC----
+T ss_pred             EEEEeeEEECCCCcEEEEEEEEEEcccCCcccccccEEEeCeeeEeccCCC
+Confidence            999999985  3689999999999998 67899999999999999999654
+
+
+No 50
+>4GD9_B Streptavidin; biotin-binding protein, biotin, circular permutation; HET: BTN; 1.5A {Streptomyces avidinii}
+Probab=99.83  E-value=7.7e-25  Score=161.66  Aligned_cols=86  Identities=88%  Similarity=1.309  Sum_probs=72.9  Template_Neff=5.500
+
+Q 3RY2_1|Chains    24 DGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWSGQYVGGAEARINTQWLLTSGTT  103 (127)
+Q Consensus        24 ~G~l~G~Y~taV~~a~~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~TsWsGQ~~~~~~~~i~T~WlL~~~~~  103 (127)
+                      .+.|+|+|.++|+...                 .+++|+|+|.|++...+++|+|+|+|||+.+++|+|+|+|||+.+..
+T Consensus         6 ~~~ltG~Y~Tav~~~~-----------------~g~t~gFtV~W~n~~~~~~S~TsWsGQc~~~g~e~I~T~WlL~~~~~   68 (132)
+T 4GD9_B            6 RYVLTGRYDSAPATDG-----------------SGTALGWTVAWKNNYRNAHSATTWSGQYVGGAEARINTQWLLTSGTT   68 (132)
+T ss_dssp             EEEEEEEECSSCCSSS-----------------CCEEEEEEEEEECSSCEEEEEEEEEEEEECSSSCEEEEEEEEEECCC
+T ss_pred             ceeeeEEEEcCCCCCC-----------------CCcEEEEEEEccCccccccceeEEEEEEecCCccEEEEEEEEeecCC
+Confidence            3568888888875322                 24699999999975556899999999999877899999999999986
+
+
+Q 3RY2_1|Chains   104 EANAWKSTLVGHDTFTKVKPSAA  126 (127)
+Q Consensus       104 ~~d~W~sT~vG~D~FtR~~p~~~  126 (127)
+                      +.+.|+++++|+|+|+|++|.++
+T Consensus        69 ~~d~W~at~vG~D~Ftr~~~~~~   91 (132)
+T 4GD9_B           69 EANAWKSTLVGHDTFTKVKPSAA   91 (132)
+T ss_dssp             GGGGGGCEEEEEEEEEEEESCSS
+T ss_pred             CccccceEEEccceeEecCCCcc
+Confidence            68999999999999999998865
+
+
+No 51
+>4GDA_B Streptavidin; biotin-binding protein, biotin, circular permutation; HET: GOL, SO4, BTN; 1.0A {Streptomyces avidinii}
+Probab=99.82  E-value=8.6e-25  Score=161.24  Aligned_cols=84  Identities=90%  Similarity=1.357  Sum_probs=69.1  Template_Neff=5.500
+
+Q 3RY2_1|Chains    26 ALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWSGQYVGGAEARINTQWLLTSGTTEA  105 (127)
+Q Consensus        26 ~l~G~Y~taV~~a~~~~~l~G~~~~~~~~~~~g~~~gftV~W~n~~~~~~S~TsWsGQ~~~~~~~~i~T~WlL~~~~~~~  105 (127)
+                      .|+|+|.|+|+...                 .+++|+|+|.|++...+++|+|+|+|||+.+++|+|+|+|||+..+.+.
+T Consensus         6 ~ltG~Y~Tav~~~~-----------------~g~t~gFtV~W~~~~~~~~S~TswsGQc~~~g~e~I~T~WlL~~~~~~~   68 (131)
+T 4GDA_B            6 VLTGRYDSAPATDG-----------------SGTALGWTVAWKNNYRNAHSATTWSGQYVGGAEARINTQWLLTSGTTEA   68 (131)
+T ss_dssp             EEEEEECSSCCTTC-----------------CCEEEEEEEEEECSSCEEEEEEEEEEEEECSTTCEEEEEEEEEECCCGG
+T ss_pred             eeEEEEecCCCCCC-----------------CCcEEEEEEEccCccccccceeEEEEEEecCCccEEEEEEEEeecCCCc
+Confidence            47777777775322                 2468999999997545689999999999987789999999999998668
+
+
+Q 3RY2_1|Chains   106 NAWKSTLVGHDTFTKVKPSAA  126 (127)
+Q Consensus       106 d~W~sT~vG~D~FtR~~p~~~  126 (127)
+                      +.|+++++|+|+|+|++|.++
+T Consensus        69 d~W~at~vG~D~Ftr~~~~~~   89 (131)
+T 4GDA_B           69 NAWKSTLVGHDTFTKVKPSAA   89 (131)
+T ss_dssp             GGGGCEEEEEEEEESCCC---
+T ss_pred             cccceEEEccceeEecCCCcc
+Confidence            999999999999999998865
+
+
+No 52
+>2JGS_B CIRCULAR PERMUTANT OF AVIDIN; BIOTIN-BINDING PROTEIN, GLYCOPROTEIN; HET: BTN; 1.9A {GALLUS GALLUS}
+Probab=99.65  E-value=3e-20  Score=137.15  Aligned_cols=67  Identities=31%  Similarity=0.587  Sum_probs=57.4  Template_Neff=5.300
+
+Q 3RY2_1|Chains    55 DGSGTALGWTVAWKNNYRNAHSATTWSGQYVGG--AEARINTQWLLTSGT-TEANAWKSTLVGHDTFTKVKPSA  125 (127)
+Q Consensus        55 ~~~g~~~gftV~W~n~~~~~~S~TsWsGQ~~~~--~~~~i~T~WlL~~~~-~~~d~W~sT~vG~D~FtR~~p~~  125 (127)
+                      +..+++|+|+|.|++    .+|+|+|+|||+.+  ++|+|+|+|||++.+ .+++.|+++++|+|+|+|++|..
+T Consensus        16 ~~~~~tfgFtV~W~~----~~S~Tsw~GQCf~~~~g~E~L~T~WlL~~~~~s~~d~W~st~~G~D~Ftr~~~~~   85 (130)
+T 2JGS_B           16 KRTQPTFGFTVNWKF----SESTTVFTGQCFIDRNGKEVLKTMWLLRSSVNDIGDDWKATRVGIMIFTRLRTQK   85 (130)
+T ss_dssp             TTSCCEEEEEEECSS----SSCEEEEEEEEEECTTSCEEEEEEEEEECCCSSGGGGGGCEEEEEEEEEEC----
+T ss_pred             CCCCCEEEEEEEccC----CCceeeEEeEEEECCCCcEEEEEEEEEecCCCCccccceeeEeeceeeEeccCCC
+Confidence            356899999999996    78999999999964  579999999999998 77899999999999999999654
+
+
+No 53
+>2JGS_D CIRCULAR PERMUTANT OF AVIDIN; BIOTIN-BINDING PROTEIN, GLYCOPROTEIN; HET: BTN; 1.9A {GALLUS GALLUS}
+Probab=99.65  E-value=3e-20  Score=137.15  Aligned_cols=67  Identities=31%  Similarity=0.587  Sum_probs=57.4  Template_Neff=5.300
+
+Q 3RY2_1|Chains    55 DGSGTALGWTVAWKNNYRNAHSATTWSGQYVGG--AEARINTQWLLTSGT-TEANAWKSTLVGHDTFTKVKPSA  125 (127)
+Q Consensus        55 ~~~g~~~gftV~W~n~~~~~~S~TsWsGQ~~~~--~~~~i~T~WlL~~~~-~~~d~W~sT~vG~D~FtR~~p~~  125 (127)
+                      +..+++|+|+|.|++    .+|+|+|+|||+.+  ++|+|+|+|||++.+ .+++.|+++++|+|+|+|++|..
+T Consensus        16 ~~~~~tfgFtV~W~~----~~S~Tsw~GQCf~~~~g~E~L~T~WlL~~~~~s~~d~W~st~~G~D~Ftr~~~~~   85 (130)
+T 2JGS_D           16 KRTQPTFGFTVNWKF----SESTTVFTGQCFIDRNGKEVLKTMWLLRSSVNDIGDDWKATRVGIMIFTRLRTQK   85 (130)
+T ss_dssp             SSSCCEEEEEEECSS----SSCEEEEEEEEEECTTSCEEEEEEEEEECCCSSGGGGGGCEEEEEEEEEEC----
+T ss_pred             CCCCCEEEEEEEccC----CCceeeEEeEEEECCCCcEEEEEEEEEecCCCCccccceeeEeeceeeEeccCCC
+Confidence            356899999999996    78999999999964  579999999999998 77899999999999999999654
+
+
+No 54
+>2C4I_A AVIDIN; BIOTIN, GLYCOPROTEIN, SIGNALOR; HET: BTN; 1.95A {GALLUS GALLUS}
+Probab=99.53  E-value=3.6e-18  Score=139.06  Aligned_cols=65  Identities=32%  Similarity=0.634  Sum_probs=55.5  Template_Neff=6.200
+
+Q 3RY2_1|Chains    57 SGTALGWTVAWKNNYRNAHSATTWSGQYVGG--AEARINTQWLLTSGT-TEANAWKSTLVGHDTFTKVKPSA  125 (127)
+Q Consensus        57 ~g~~~gftV~W~n~~~~~~S~TsWsGQ~~~~--~~~~i~T~WlL~~~~-~~~d~W~sT~vG~D~FtR~~p~~  125 (127)
+                      .+++|+|+|.|.+    .+|+|+|+|||+.+  ++|+|+|+|||+..+ .++++|+++++|+|+|+|++|..
+T Consensus         2 ~~~tfgf~V~w~~----~~S~t~w~GQc~~~~~g~e~l~T~Wll~~~~~~~~~~W~~t~~G~d~F~r~~~~~   69 (271)
+T 2C4I_A            2 TQPTFGFTVNWKF----SESTTVFTGQCFIDRNGKEVLKTMWLLRSSVNDIGDDWKATRVGINIFTRLRTQK   69 (271)
+T ss_dssp             CCCEEEEEEECSS----SSCEEEEEEEEEECGGGCEEEEEEEEEECCCSSGGGGGGCEEEEEEEEEEC----
+T ss_pred             CCCEEEEEEEecC----CCceEEEEEEEEECCCCcEEEEEEEEEeCCCCCccccccceEEeCceeEEecccc
+Confidence            3678999999996    78999999999964  578999999999998 77899999999999999998654
+
+
+No 55
+>2C4I_A AVIDIN; BIOTIN, GLYCOPROTEIN, SIGNALOR; HET: BTN; 1.95A {GALLUS GALLUS}
+Probab=99.31  E-value=1.2e-15  Score=124.48  Aligned_cols=66  Identities=32%  Similarity=0.596  Sum_probs=56.9  Template_Neff=6.200
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVT-AGADGALTGTYESAVGNA---ESRYVLTGRYDSAPATDGSGTALGWTVAWKN   69 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~-~~~~G~l~G~Y~taV~~a---~~~~~l~G~~~~~~~~~~~g~~~gftV~W~n   69 (127)
+                      +|.|.|.|+||+||+|.|. ++++|.|+|+|+++|+.+   ...++|.|++...+  ...+++|+|+|+|++
+T Consensus       200 ~~~l~G~W~n~lGS~m~i~~~~~~G~~sG~Y~tav~~~~~~~~~~pL~G~~~~~~--~~~~~tfgFtV~W~~  269 (271)
+T 2C4I_A          200 KCSLTGKWTNDLGSNMTIGAVNSRGEFTGTYITAVTATSNEIKESPLHGTQNTIN--KRTQPTFGFTVNWKF  269 (271)
+T ss_dssp             SCCCCEEEEETTSCEEEECCCCTTSEEEEEEECSCCSSSSCCBCEEEEEEECCTT--CCSSCEEEEEEECBC
+T ss_pred             cCCCccEEEcCCCCeEEEEEeCCCCeEEEEEECCCCCCCCcceeeccEeEecCCC--CCCCCEEEEEEEccC
+Confidence            6999999999999999998 578899999999999887   34689999976544  236899999999985
+
+
+No 56
+>4GDA_B Streptavidin; biotin-binding protein, biotin, circular permutation; HET: GOL, SO4, BTN; 1.0A {Streptomyces avidinii}
+Probab=98.80  E-value=6e-12  Score=93.47  Aligned_cols=35  Identities=100%  Similarity=1.479  Sum_probs=33.6  Template_Neff=5.500
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVG   36 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~   36 (127)
+                      +|+|.|.|+|||||+|.|..+.+|.|+|+|+++|+
+T Consensus        96 ~c~l~G~W~N~lGs~m~i~~~~~g~f~G~Y~tav~  130 (131)
+T 4GDA_B           96 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVG  130 (131)
+T ss_dssp             CSSSCEEEEETTCCEEEEEECTTSEEEEEEECSSC
+T ss_pred             ccCceEEEEeCCCCEEEEEeCCCCcEEEEEEcccC
+Confidence            79999999999999999999889999999999986
+
+
+No 57
+>4GD9_B Streptavidin; biotin-binding protein, biotin, circular permutation; HET: BTN; 1.5A {Streptomyces avidinii}
+Probab=98.79  E-value=7.2e-12  Score=93.17  Aligned_cols=35  Identities=100%  Similarity=1.479  Sum_probs=33.4  Template_Neff=5.500
+
+Q 3RY2_1|Chains     2 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVG   36 (127)
+Q Consensus         2 ~c~l~G~W~NeLGS~m~i~~~~~G~l~G~Y~taV~   36 (127)
+                      +|+|.|.|+|||||+|.|..+.+|.|+|+|+++|+
+T Consensus        98 ~c~l~G~W~N~lGs~m~i~~~~~g~~~G~Y~tavg  132 (132)
+T 4GD9_B           98 EAGITGTWYNQLGSTFIVTAGADGALTGTYESAVG  132 (132)
+T ss_dssp             HHHHSEEEEETTCCEEEEEECTTSEEEEEEECSCC
+T ss_pred             ccCceEEEEeCCCCEEEEEeCCCCcEEEEEEccCC
+Confidence            79999999999999999999889999999999985
+
+
+No 58
+>2JGS_B CIRCULAR PERMUTANT OF AVIDIN; BIOTIN-BINDING PROTEIN, GLYCOPROTEIN; HET: BTN; 1.9A {GALLUS GALLUS}
+Probab=98.53  E-value=1.4e-10  Score=86.23  Aligned_cols=36  Identities=42%  Similarity=0.758  Sum_probs=31.5  Template_Neff=5.300
+
+Q 3RY2_1|Chains     1 AEAGITGTWYNQLGSTFIVTA-GADGALTGTYESAVG   36 (127)
+Q Consensus         1 ~~c~l~G~W~NeLGS~m~i~~-~~~G~l~G~Y~taV~   36 (127)
+                      .+|+|.|.|+|||||+|+|.. +++|.|+|+|+++|.
+T Consensus        94 ~~c~l~G~W~N~lGS~M~I~~~~~~g~fsG~Y~tav~  130 (130)
+T 2JGS_B           94 RKCSLTGKWTNDLGSNMTIGAVNSRGEFTGTYITAVT  130 (130)
+T ss_dssp             --CCSCEEEECTTSCEEEECCCCTTSEEEEEEECSCC
+T ss_pred             ceecceEEEEcCCCCeEEEEEeCCCCeEEEEEEcccC
+Confidence            379999999999999999986 677999999999983
+
+
+No 59
+>2JGS_D CIRCULAR PERMUTANT OF AVIDIN; BIOTIN-BINDING PROTEIN, GLYCOPROTEIN; HET: BTN; 1.9A {GALLUS GALLUS}
+Probab=98.53  E-value=1.4e-10  Score=86.23  Aligned_cols=36  Identities=42%  Similarity=0.758  Sum_probs=31.5  Template_Neff=5.300
+
+Q 3RY2_1|Chains     1 AEAGITGTWYNQLGSTFIVTA-GADGALTGTYESAVG   36 (127)
+Q Consensus         1 ~~c~l~G~W~NeLGS~m~i~~-~~~G~l~G~Y~taV~   36 (127)
+                      .+|+|.|.|+|||||+|+|.. +++|.|+|+|+++|.
+T Consensus        94 ~~c~l~G~W~N~lGS~M~I~~~~~~g~fsG~Y~tav~  130 (130)
+T 2JGS_D           94 RKCSLTGKWTNDLGSNMTIGAVNSRGEFTGTYITAVT  130 (130)
+T ss_dssp             --CCSCEEEECTTSCEEEECCCCTTSEEEEEEECSCC
+T ss_pred             ceecceEEEEcCCCCeEEEEEeCCCCeEEEEEEcccC
+Confidence            379999999999999999986 677999999999983
+
+
+No 60
+>4BGL_D SUPEROXIDE REDUCTASE; OXIDOREDUCTASE, OXYGEN DETOXIFICATION; HET: GOL; 1.9A {ARCHAEOGLOBUS FULGIDUS}
+Probab=27.36  E-value=53  Score=24.85  Aligned_cols=13  Identities=23%  Similarity=0.595  Sum_probs=11.3  Template_Neff=5.900
+
+Q 3RY2_1|Chains     1 AEAGITGTWYNQL   13 (127)
+Q Consensus         1 ~~c~l~G~W~NeL   13 (127)
+                      ++|++-|.|.++.
+T Consensus       108 ~yCNlHGlW~~~~  120 (125)
+T 4BGL_D          108 SYCNIHGLWMGEA  120 (125)
+T ss_dssp             EEETTTEEEEEEE
+T ss_pred             EEEcCCceEEece
+Confidence            4799999999875
+
+
+No 61
+>4C4B_B SUPEROXIDE REDUCTASE; OXIDOREDUCTASE, OXYGEN DETOXIFICATION; HET: EDO; 2.5A {ARCHAEOGLOBUS FULGIDUS}
+Probab=27.34  E-value=53  Score=24.85  Aligned_cols=13  Identities=23%  Similarity=0.595  Sum_probs=11.3  Template_Neff=5.900
+
+Q 3RY2_1|Chains     1 AEAGITGTWYNQL   13 (127)
+Q Consensus         1 ~~c~l~G~W~NeL   13 (127)
+                      ++|++-|.|.++.
+T Consensus       108 ~yCNlHGlW~~~~  120 (125)
+T 4C4B_B          108 SYCNIHGLWMGEA  120 (125)
+T ss_dssp             EEETTTEEEEEEE
+T ss_pred             EEEcCCceEEece
+Confidence            4799999999875
+
+
+No 62
+>5L8R_E Lhca1, Type II chlorophyll a/b; photosynthesis, membrane complex, chlorophyll, light; HET: CL0, LHG, SF4, LMG, CHL, DGD, BCR, LMT, CLA, XAT, PQN, ZEX, LUT; 2.6A {Pisum sativum}
+Probab=27.34  E-value=53  Score=22.59  Aligned_cols=17  Identities=29%  Similarity=0.595  Sum_probs=13.7  Template_Neff=2.500
+
+Q 3RY2_1|Chains     6 TGTWYNQLGSTFIVTAG   22 (127)
+Q Consensus         6 ~G~W~NeLGS~m~i~~~   22 (127)
+                      ...|+|+.|+...|...
+T Consensus        17 ESYWyn~vGtV~sVDq~   33 (66)
+T 5L8R_E           17 ESYWYKGTGSVVAVDQD   33 (66)
+T ss_pred             cccccCCcceEEEEcCC
+Confidence            45799999999888653
+
+
+No 63
+>6TCL_E Photosystem I P700 chlorophyll a; photosynthesis, tetramer, anabaena, PSI; HET: BCR, LHG, CLA, PQN, CL0, DGD, SF4, AJP, ECH, LMG;{Nostoc sp. PCC 7120}
+Probab=26.85  E-value=55  Score=22.33  Aligned_cols=16  Identities=19%  Similarity=0.590  Sum_probs=13.4  Template_Neff=2.500
+
+Q 3RY2_1|Chains     6 TGTWYNQLGSTFIVTA   21 (127)
+Q Consensus         6 ~G~W~NeLGS~m~i~~   21 (127)
+                      ...|+|+.|+...|..
+T Consensus        13 ESYWy~~vGtV~sVDq   28 (63)
+T 6TCL_E           13 ESYWFQDVGTVASVDQ   28 (63)
+T ss_dssp             SSTTTTCEEEEEECCC
+T ss_pred             ccccccCcccEEEECC
+Confidence            4679999999988865
+
+
+No 64
+>6TCL_E1 Photosystem I P700 chlorophyll a; photosynthesis, tetramer, anabaena, PSI; HET: PQN, LMG, CL0, BCR, CLA, ECH, AJP, DGD, SF4, LHG;{Nostoc sp. PCC 7120}
+Probab=26.19  E-value=58  Score=22.05  Aligned_cols=16  Identities=19%  Similarity=0.590  Sum_probs=13.3  Template_Neff=2.600
+
+Q 3RY2_1|Chains     6 TGTWYNQLGSTFIVTA   21 (127)
+Q Consensus         6 ~G~W~NeLGS~m~i~~   21 (127)
+                      ...|+|+.|+...+..
+T Consensus        13 ESYWy~~vGtV~sVDq   28 (60)
+T 6TCL_E1          13 ESYWFQDVGTVASVDQ   28 (60)
+T ss_pred             ccccccCcccEEEECC
+Confidence            4679999999988865
+
+
+No 65
+>1DO6_B SUPEROXIDE REDUCTASE; NON-HEME IRON PROTEIN, IMMUNOGLOBULIN-LIKE (IG); 2.0A {Pyrococcus furiosus} SCOP: b.1.13.1
+Probab=25.73  E-value=59  Score=24.49  Aligned_cols=13  Identities=31%  Similarity=0.695  Sum_probs=11.1  Template_Neff=6.100
+
+Q 3RY2_1|Chains     1 AEAGITGTWYNQL   13 (127)
+Q Consensus         1 ~~c~l~G~W~NeL   13 (127)
+                      ++|++-|.|.++.
+T Consensus       109 ~yCNlHGlW~~~~  121 (124)
+T 1DO6_B          109 SYCNIHGLWENEV  121 (124)
+T ss_dssp             EEETTTEEEEEEE
+T ss_pred             EEEcCCeeEEEee
+Confidence            4799999999875
+
+
+No 66
+>1DQI_D CRYSTAL STRUCTURE OF SUPEROXIDE REDUCTASE; non-heme iron protein, immunoglobulin-like (Ig); 1.7A {Pyrococcus furiosus} SCOP: b.1.13.1
+Probab=25.73  E-value=59  Score=24.49  Aligned_cols=13  Identities=31%  Similarity=0.695  Sum_probs=11.1  Template_Neff=6.100
+
+Q 3RY2_1|Chains     1 AEAGITGTWYNQL   13 (127)
+Q Consensus         1 ~~c~l~G~W~NeL   13 (127)
+                      ++|++-|.|.++.
+T Consensus       109 ~yCNlHGlW~~~~  121 (124)
+T 1DQI_D          109 SYCNIHGLWENEV  121 (124)
+T ss_dssp             EEETTTEEEEEEE
+T ss_pred             EEEcCCeeEEEee
+Confidence            4799999999875
+
+
+No 67
+>1DQK_A CRYSTAL STRUCTURE OF SUPEROXIDE REDUCTASE; non-heme mononuclear iron protein, immunoglobulin-like; 2.0A {Pyrococcus furiosus} SCOP: b.1.13.1
+Probab=25.73  E-value=59  Score=24.49  Aligned_cols=13  Identities=31%  Similarity=0.695  Sum_probs=11.1  Template_Neff=6.100
+
+Q 3RY2_1|Chains     1 AEAGITGTWYNQL   13 (127)
+Q Consensus         1 ~~c~l~G~W~NeL   13 (127)
+                      ++|++-|.|.++.
+T Consensus       109 ~yCNlHGlW~~~~  121 (124)
+T 1DQK_A          109 SYCNIHGLWENEV  121 (124)
+T ss_dssp             EEETTTEEEEEEE
+T ss_pred             EEEcCCeeEEEee
+Confidence            4799999999875
+
+
+No 68
+>2WSE_E AT3G54890, TYPE II CHLOROPHYLL A/B; PHOTOSYNTHESIS, ELECTRON TRANSFER, MEMBRANE PROTEINS; HET: SF4, PQN, UNL, CLA, LMG, SUC, LMU, BCR; 3.49A {ARABIDOPSIS THALIANA}
+Probab=24.95  E-value=63  Score=25.39  Aligned_cols=17  Identities=24%  Similarity=0.636  Sum_probs=14.2  Template_Neff=2.500
+
+Q 3RY2_1|Chains     6 TGTWYNQLGSTFIVTAG   22 (127)
+Q Consensus         6 ~G~W~NeLGS~m~i~~~   22 (127)
+                      ...|||+.|+...|..+
+T Consensus        93 ESYWyn~vGtVvsVDq~  109 (143)
+T 2WSE_E           93 ESYWFKNVGSVVAVDQD  109 (143)
+T ss_pred             ccccccCCCeEEEEeCC
+Confidence            46899999999988764
+
+
+No 69
+>2WSC_E AT3G54890, TYPE II CHLOROPHYLL A/B; PHOTOSYNTHESIS, ELECTRON TRANSFER, MEMBRANE PROTEINS; HET: LMU, LMG, BCR, SF4, SUC, CLA, UNL, PQN; 3.3A {PISUM SATIVUM}
+Probab=24.93  E-value=63  Score=25.38  Aligned_cols=17  Identities=24%  Similarity=0.636  Sum_probs=14.2  Template_Neff=2.500
+
+Q 3RY2_1|Chains     6 TGTWYNQLGSTFIVTAG   22 (127)
+Q Consensus         6 ~G~W~NeLGS~m~i~~~   22 (127)
+                      ...|||+.|+...|..+
+T Consensus        93 ESYWyn~vGtVvsVDq~  109 (143)
+T 2WSC_E           93 ESYWFKNVGSVVAVDQD  109 (143)
+T ss_pred             ccccccCCceEEEEeCC
+Confidence            46899999999998764
+
+
+No 70
+>1JB0_E PHOTOSYSTEM I SUBUNIT PSAA, PHOTOSYSTEM; MEMBRANE PROTEIN, MULTIPROTEIN-PIGMENT COMPLEX, PHOTOSYNTHESIS; HET: LMG, CLA, LHG, PQN, SF4, BCR; 2.5A {Synechococcus elongatus} SCOP: b.34.4.2
+Probab=24.59  E-value=64  Score=22.74  Aligned_cols=17  Identities=29%  Similarity=0.663  Sum_probs=13.9  Template_Neff=2.600
+
+Q 3RY2_1|Chains     6 TGTWYNQLGSTFIVTAG   22 (127)
+Q Consensus         6 ~G~W~NeLGS~m~i~~~   22 (127)
+                      ...|+|+.|+...|...
+T Consensus        13 ESYWyn~vGtV~sVDk~   29 (75)
+T 1JB0_E           13 ESYWYNEVGTVASVDQT   29 (75)
+T ss_dssp             TCTTBTCEEEEEEECCC
+T ss_pred             ccccccCCceEEEEeCC
+Confidence            46799999999888653
+
+
+No 71
+>4BFK_A SUPEROXIDE REDUCTASE (E.C.1.15.1.2); OXIDOREDUCTASE, OXYGEN DETOXIFICATION; 2.103A {ARCHAEOGLOBUS FULGIDUS}
+Probab=24.39  E-value=65  Score=24.35  Aligned_cols=13  Identities=23%  Similarity=0.595  Sum_probs=11.4  Template_Neff=6.000
+
+Q 3RY2_1|Chains     1 AEAGITGTWYNQL   13 (127)
+Q Consensus         1 ~~c~l~G~W~NeL   13 (127)
+                      ++|++-|.|.++.
+T Consensus       108 ~yCNlHGlW~~~~  120 (125)
+T 4BFK_A          108 SYCNIHGLWMGEA  120 (125)
+T ss_dssp             EEETTTEEEEEEE
+T ss_pred             EEEcCCceEEece
+Confidence            4799999999886
+
+
+No 72
+>6QPH_E Chlorophyll a-b binding protein, chloroplastic; Photosystem I, Dunaliella, Electron Transport; HET: CAC, BCR, LMG, SF4, LHG, XAT, LMT, DGD, CL0, LUT, CHL, PQN, GSH, SQD, CLA; 3.4A {Dunaliella salina}
+Probab=24.38  E-value=65  Score=22.05  Aligned_cols=16  Identities=38%  Similarity=0.769  Sum_probs=13.3  Template_Neff=2.500
+
+Q 3RY2_1|Chains     6 TGTWYNQLGSTFIVTA   21 (127)
+Q Consensus         6 ~G~W~NeLGS~m~i~~   21 (127)
+                      ...|+|+.|+...|..
+T Consensus        16 ESYWy~~vGtV~sVDk   31 (64)
+T 6QPH_E           16 ESYWYNQVGKVVSVDQ   31 (64)
+T ss_pred             ccccccCCCcEEEECC
+Confidence            4579999999988865
+
+
+No 73
+>6RHZ_E Chlorophyll a-b binding protein, chloroplastic; photosystem I, photosynthesis, green algae; HET: XAT, LHG, BCR, CLA, LUT, CL0, DGD, SF4, PQN, CHL, LMG; 3.2A {Dunaliella salina}
+Probab=24.38  E-value=65  Score=22.05  Aligned_cols=16  Identities=38%  Similarity=0.769  Sum_probs=13.3  Template_Neff=2.500
+
+Q 3RY2_1|Chains     6 TGTWYNQLGSTFIVTA   21 (127)
+Q Consensus         6 ~G~W~NeLGS~m~i~~   21 (127)
+                      ...|+|+.|+...|..
+T Consensus        16 ESYWy~~vGtV~sVDk   31 (64)
+T 6RHZ_E           16 ESYWYNQVGKVVSVDQ   31 (64)
+T ss_pred             ccccccCCCcEEEECC
+Confidence            4579999999988865
+
+
+No 74
+>5OY0_E Photosystem I P700 chlorophyll a; photosystem I, reaction center, photosynthesis; HET: PQN, LMG, SQD, EQ3, BCR, CLA, ZEX, ECH, ACT, 45D, LMT, DGD, SF4, LHG; 2.501A {Synechocystis sp. PCC 6803}
+Probab=22.36  E-value=76  Score=22.07  Aligned_cols=16  Identities=25%  Similarity=0.634  Sum_probs=13.5  Template_Neff=2.600
+
+Q 3RY2_1|Chains     6 TGTWYNQLGSTFIVTA   21 (127)
+Q Consensus         6 ~G~W~NeLGS~m~i~~   21 (127)
+                      ...|+|+.|+...|..
+T Consensus        14 ESYWyn~vGtV~sVDk   29 (69)
+T 5OY0_E           14 ESYWYGDVGTVASVEK   29 (69)
+T ss_dssp             SSTTBTCEEEEEEECC
+T ss_pred             cccccccceeEEEEcC
+Confidence            4679999999998865
+
+
+No 75
+>6IGZ_E PsaA, PsaB, PsaC, PsaD, PsaE; PSI-LHCI, PLANT PROTEIN; HET: DGD, XAT, LMG, CLA, CHL, 8CT, SF4, PQN, LHG, HTG;{Bryopsis corticulans}
+Probab=21.93  E-value=79  Score=23.04  Aligned_cols=16  Identities=25%  Similarity=0.611  Sum_probs=13.4  Template_Neff=2.200
+
+Q 3RY2_1|Chains     6 TGTWYNQLGSTFIVTA   21 (127)
+Q Consensus         6 ~G~W~NeLGS~m~i~~   21 (127)
+                      ...|+|+.|+...|..
+T Consensus        44 ESYWyn~vGtVvsVDq   59 (91)
+T 6IGZ_E           44 ESYWYNRAGKVVSCDQ   59 (91)
+T ss_dssp             SSSSTTCEEEEEECCS
+T ss_pred             ccccccCCceEEEEcC
+Confidence            4679999999988865
+
+
+No 76
+>6FOS_E Similar to chlorophyll a/b-binding protein; membrane protein, photosynthetic complex, reaction; HET: SF4, CLA, BCR, PQN; 4.0A {Cyanidioschyzon merolae (strain 10D)}
+Probab=21.89  E-value=79  Score=21.98  Aligned_cols=16  Identities=31%  Similarity=0.765  Sum_probs=13.3  Template_Neff=2.500
+
+Q 3RY2_1|Chains     6 TGTWYNQLGSTFIVTA   21 (127)
+Q Consensus         6 ~G~W~NeLGS~m~i~~   21 (127)
+                      ...|+|+.|+...+..
+T Consensus        14 ESYWyn~vGtV~sVDk   29 (69)
+T 6FOS_E           14 ESFWYNEVGTVVNVET   29 (69)
+T ss_pred             ccccccccceEEEEcC
+Confidence            4679999999988864
+
+
+No 77
+>5ZJI_E Chlorophyll a-b binding protein, chloroplastic; Photosystem, Antenna, Supercomplex, State transition; HET: LMU, LMG, TPO, NEX, CL0, PQN, DGD, LUT, BCR, LHG, CHL, XAT, CLA, SF4;{Zea mays}
+Probab=21.81  E-value=79  Score=24.69  Aligned_cols=17  Identities=29%  Similarity=0.712  Sum_probs=14.1  Template_Neff=2.600
+
+Q 3RY2_1|Chains     6 TGTWYNQLGSTFIVTAG   22 (127)
+Q Consensus         6 ~G~W~NeLGS~m~i~~~   22 (127)
+                      .-.|+|+.|+...|...
+T Consensus        87 ESYWyn~vG~Vv~vDq~  103 (136)
+T 5ZJI_E           87 ESYWYNGIGNVVTVDQD  103 (136)
+T ss_pred             ccccccCCceEEEEeCC
+Confidence            46899999999988754
+
+
